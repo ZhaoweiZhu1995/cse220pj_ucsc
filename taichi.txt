@@ -1,0 +1,1727 @@
+#           time             counts unit events
+     1.000113894           1,213.03 msec task-clock                #    1.213 CPUs utilized          
+     1.000113894                219      context-switches          #    0.181 K/sec                  
+     1.000113894                  3      cpu-migrations            #    0.002 K/sec                  
+     1.000113894              6,441      page-faults               #    0.005 M/sec                  
+     1.000113894      3,160,654,588      cycles                    #    2.606 GHz                      (37.31%)
+     1.000113894      2,349,927,345      stalled-cycles-frontend   #   74.35% frontend cycles idle     (47.08%)
+     1.000113894      1,488,407,049      instructions              #    0.47  insn per cycle         
+     1.000113894                                                   #    1.58  stalled cycles per insn  (59.90%)
+     1.000113894        296,950,406      branches                  #  244.801 M/sec                    (61.75%)
+     1.000113894          8,105,219      branch-misses             #    2.73% of all branches          (62.17%)
+     1.000113894        464,976,093      L1-dcache-loads           #  383.319 M/sec                    (35.12%)
+     1.000113894         15,680,035      L1-dcache-load-misses     #    3.37% of all L1-dcache hits    (28.06%)
+     1.000113894          3,904,362      LLC-loads                 #    3.219 M/sec                    (24.67%)
+     1.000113894    <not supported>      LLC-load-misses                                             
+     2.001295752              50.97 msec task-clock                #    0.051 CPUs utilized          
+     2.001295752                258      context-switches          #    0.408 K/sec                  
+     2.001295752                  0      cpu-migrations            #    0.000 K/sec                  
+     2.001295752                955      page-faults               #    0.002 M/sec                  
+     2.001295752         83,213,910      cycles                    #    0.132 GHz                      (37.68%)
+     2.001295752         55,898,798      stalled-cycles-frontend   #    3.45% frontend cycles idle     (47.53%)
+     2.001295752         87,220,935      instructions              #    0.05  insn per cycle         
+     2.001295752                                                   #   13.79  stalled cycles per insn  (60.19%)
+     2.001295752         24,748,648      branches                  #   39.159 M/sec                    (61.81%)
+     2.001295752            416,706      branch-misses             #    0.26% of all branches          (62.09%)
+     2.001295752         46,855,526      L1-dcache-loads           #   74.139 M/sec                    (35.41%)
+     2.001295752          1,981,322      L1-dcache-load-misses     #    0.77% of all L1-dcache hits    (27.82%)
+     2.001295752            286,906      LLC-loads                 #    0.454 M/sec                    (24.89%)
+     2.001295752    <not supported>      LLC-load-misses                                             
+     3.002430616             514.30 msec task-clock                #    0.514 CPUs utilized          
+     3.002430616                183      context-switches          #    0.309 K/sec                  
+     3.002430616                  9      cpu-migrations            #    0.015 K/sec                  
+     3.002430616             13,531      page-faults               #    0.023 M/sec                  
+     3.002430616      1,391,941,043      cycles                    #    2.348 GHz                      (37.13%)
+     3.002430616        729,231,761      stalled-cycles-frontend   #   47.19% frontend cycles idle     (47.84%)
+     3.002430616      1,603,601,489      instructions              #    1.04  insn per cycle         
+     3.002430616                                                   #    0.65  stalled cycles per insn  (60.23%)
+     3.002430616        334,451,298      branches                  #  564.223 M/sec                    (61.26%)
+     3.002430616          7,862,757      branch-misses             #    3.59% of all branches          (62.17%)
+     3.002430616        469,074,399      L1-dcache-loads           #  791.333 M/sec                    (40.03%)
+     3.002430616         34,953,377      L1-dcache-load-misses     #   10.69% of all L1-dcache hits    (27.34%)
+     3.002430616          8,834,170      LLC-loads                 #   14.903 M/sec                    (24.69%)
+     3.002430616    <not supported>      LLC-load-misses                                             
+     4.003638809              48.78 msec task-clock                #    0.049 CPUs utilized          
+     4.003638809                 89      context-switches          #    0.195 K/sec                  
+     4.003638809                  0      cpu-migrations            #    0.000 K/sec                  
+     4.003638809                696      page-faults               #    0.002 M/sec                  
+     4.003638809         68,174,474      cycles                    #    0.149 GHz                      (37.43%)
+     4.003638809         50,015,901      stalled-cycles-frontend   #    4.25% frontend cycles idle     (48.29%)
+     4.003638809         78,802,005      instructions              #    0.07  insn per cycle         
+     4.003638809                                                   #   10.10  stalled cycles per insn  (60.64%)
+     4.003638809         18,977,935      branches                  #   41.548 M/sec                    (60.91%)
+     4.003638809            337,827      branch-misses             #    0.20% of all branches          (61.99%)
+     4.003638809         21,079,169      L1-dcache-loads           #   46.149 M/sec                    (39.92%)
+     4.003638809          2,638,816      L1-dcache-load-misses     #    1.05% of all L1-dcache hits    (27.57%)
+     4.003638809            599,625      LLC-loads                 #    1.313 M/sec                    (25.02%)
+     4.003638809    <not supported>      LLC-load-misses                                             
+     5.004155084             144.97 msec task-clock                #    0.145 CPUs utilized          
+     5.004155084                614      context-switches          #    0.002 M/sec                  
+     5.004155084                  1      cpu-migrations            #    0.003 K/sec                  
+     5.004155084              3,026      page-faults               #    0.008 M/sec                  
+     5.004155084        254,540,195      cycles                    #    0.645 GHz                      (37.03%)
+     5.004155084        146,722,768      stalled-cycles-frontend   #   14.80% frontend cycles idle     (48.18%)
+     5.004155084        307,955,488      instructions              #    0.31  insn per cycle         
+     5.004155084                                                   #    2.16  stalled cycles per insn  (60.60%)
+     5.004155084         66,789,822      branches                  #  169.342 M/sec                    (60.58%)
+     5.004155084          2,018,273      branch-misses             #    1.36% of all branches          (61.97%)
+     5.004155084         64,268,916      L1-dcache-loads           #  162.950 M/sec                    (40.56%)
+     5.004155084          4,258,794      L1-dcache-load-misses     #    2.00% of all L1-dcache hits    (27.67%)
+     5.004155084          1,262,564      LLC-loads                 #    3.201 M/sec                    (25.03%)
+     5.004155084    <not supported>      LLC-load-misses                                             
+     6.005311932             520.44 msec task-clock                #    0.520 CPUs utilized          
+     6.005311932                986      context-switches          #    0.002 M/sec                  
+     6.005311932                  2      cpu-migrations            #    0.005 K/sec                  
+     6.005311932                958      page-faults               #    0.002 M/sec                  
+     6.005311932      1,204,258,016      cycles                    #    2.899 GHz                      (37.78%)
+     6.005311932        687,924,584      stalled-cycles-frontend   #   66.98% frontend cycles idle     (49.01%)
+     6.005311932      1,302,180,459      instructions              #    1.27  insn per cycle         
+     6.005311932                                                   #    0.51  stalled cycles per insn  (61.28%)
+     6.005311932        332,253,588      branches                  #  799.813 M/sec                    (60.96%)
+     6.005311932          7,742,079      branch-misses             #    4.32% of all branches          (61.93%)
+     6.005311932        451,690,831      L1-dcache-loads           # 1087.326 M/sec                    (42.12%)
+     6.005311932         14,509,118      L1-dcache-load-misses     #    5.74% of all L1-dcache hits    (27.27%)
+     6.005311932          5,130,985      LLC-loads                 #   12.351 M/sec                    (25.06%)
+     6.005311932    <not supported>      LLC-load-misses                                             
+     7.005860571           1,161.54 msec task-clock                #    1.162 CPUs utilized          
+     7.005860571              1,027      context-switches          #    0.002 M/sec                  
+     7.005860571                 34      cpu-migrations            #    0.065 K/sec                  
+     7.005860571             36,489      page-faults               #    0.070 M/sec                  
+     7.005860571      3,351,330,223      cycles                    #    6.420 GHz                      (38.34%)
+     7.005860571      1,862,321,610      stalled-cycles-frontend   #  137.02% frontend cycles idle     (48.47%)
+     7.005860571      3,668,286,710      instructions              #    2.70  insn per cycle         
+     7.005860571                                                   #    0.23  stalled cycles per insn  (60.89%)
+     7.005860571        812,624,262      branches                  # 1556.740 M/sec                    (60.40%)
+     7.005860571         17,353,382      branch-misses             #    6.44% of all branches          (61.40%)
+     7.005860571        900,055,991      L1-dcache-loads           # 1724.233 M/sec                    (42.91%)
+     7.005860571         49,630,464      L1-dcache-load-misses     #   14.37% of all L1-dcache hits    (28.72%)
+     7.005860571         13,590,542      LLC-loads                 #   26.035 M/sec                    (26.50%)
+     7.005860571    <not supported>      LLC-load-misses                                             
+     8.006422562           1,556.56 msec task-clock                #    1.557 CPUs utilized          
+     8.006422562             10,361      context-switches          #    0.016 M/sec                  
+     8.006422562                616      cpu-migrations            #    0.946 K/sec                  
+     8.006422562             94,096      page-faults               #    0.144 M/sec                  
+     8.006422562      3,906,286,522      cycles                    #    5.997 GHz                      (39.95%)
+     8.006422562      2,263,335,854      stalled-cycles-frontend   #  134.92% frontend cycles idle     (48.75%)
+     8.006422562      3,720,685,101      instructions              #    2.22  insn per cycle         
+     8.006422562                                                   #    0.27  stalled cycles per insn  (61.55%)
+     8.006422562        717,742,125      branches                  # 1101.975 M/sec                    (61.00%)
+     8.006422562         19,489,751      branch-misses             #    5.99% of all branches          (61.42%)
+     8.006422562      1,040,815,105      L1-dcache-loads           # 1598.000 M/sec                    (42.27%)
+     8.006422562         53,856,262      L1-dcache-load-misses     #   12.46% of all L1-dcache hits    (29.36%)
+     8.006422562         16,870,054      LLC-loads                 #   25.901 M/sec                    (27.51%)
+     8.006422562    <not supported>      LLC-load-misses                                             
+     9.008723545           1,395.95 msec task-clock                #    1.396 CPUs utilized          
+     9.008723545              2,449      context-switches          #    0.003 M/sec                  
+     9.008723545                217      cpu-migrations            #    0.296 K/sec                  
+     9.008723545                852      page-faults               #    0.001 M/sec                  
+     9.008723545      3,926,458,350      cycles                    #    5.349 GHz                      (39.27%)
+     9.008723545      2,360,893,836      stalled-cycles-frontend   #  122.49% frontend cycles idle     (48.17%)
+     9.008723545      3,742,891,332      instructions              #    1.94  insn per cycle         
+     9.008723545                                                   #    0.31  stalled cycles per insn  (60.87%)
+     9.008723545        784,360,687      branches                  # 1068.525 M/sec                    (60.80%)
+     9.008723545         19,877,438      branch-misses             #    5.28% of all branches          (61.50%)
+     9.008723545        964,752,531      L1-dcache-loads           # 1314.270 M/sec                    (42.84%)
+     9.008723545         53,333,275      L1-dcache-load-misses     #   10.85% of all L1-dcache hits    (28.65%)
+     9.008723545         16,777,542      LLC-loads                 #   22.856 M/sec                    (27.12%)
+     9.008723545    <not supported>      LLC-load-misses                                             
+    10.009327995           5,378.22 msec task-clock                #    5.378 CPUs utilized          
+    10.009327995             27,405      context-switches          #    0.023 M/sec                  
+    10.009327995              3,149      cpu-migrations            #    0.003 M/sec                  
+    10.009327995                329      page-faults               #    0.275 K/sec                  
+    10.009327995     13,346,779,210      cycles                    #   11.136 GHz                      (38.57%)
+    10.009327995     11,226,062,930      stalled-cycles-frontend   #  365.75% frontend cycles idle     (47.13%)
+    10.009327995      4,538,899,541      instructions              #    1.48  insn per cycle         
+    10.009327995                                                   #    0.48  stalled cycles per insn  (59.71%)
+    10.009327995        478,568,872      branches                  #  399.315 M/sec                    (59.67%)
+    10.009327995          6,616,701      branch-misses             #    1.71% of all branches          (60.72%)
+    10.009327995        797,390,039      L1-dcache-loads           #  665.337 M/sec                    (38.07%)
+    10.009327995        151,306,042      L1-dcache-load-misses     #   28.98% of all L1-dcache hits    (27.61%)
+    10.009327995         73,120,767      LLC-loads                 #   61.011 M/sec                    (26.40%)
+    10.009327995    <not supported>      LLC-load-misses                                             
+    11.009991852           5,597.95 msec task-clock                #    5.598 CPUs utilized          
+    11.009991852             37,621      context-switches          #    0.024 M/sec                  
+    11.009991852              3,896      cpu-migrations            #    0.002 M/sec                  
+    11.009991852                  0      page-faults               #    0.000 K/sec                  
+    11.009991852     14,633,666,760      cycles                    #    9.155 GHz                      (38.16%)
+    11.009991852     12,077,442,344      stalled-cycles-frontend   #  293.09% frontend cycles idle     (47.24%)
+    11.009991852      5,834,243,734      instructions              #    1.42  insn per cycle         
+    11.009991852                                                   #    0.53  stalled cycles per insn  (59.82%)
+    11.009991852        678,336,205      branches                  #  424.377 M/sec                    (59.83%)
+    11.009991852          7,396,459      branch-misses             #    1.79% of all branches          (60.19%)
+    11.009991852      1,017,912,392      L1-dcache-loads           #  636.821 M/sec                    (36.65%)
+    11.009991852        167,345,838      L1-dcache-load-misses     #   29.51% of all L1-dcache hits    (27.26%)
+    11.009991852         78,165,613      LLC-loads                 #   48.902 M/sec                    (26.43%)
+    11.009991852    <not supported>      LLC-load-misses                                             
+    12.010840356           5,487.83 msec task-clock                #    5.488 CPUs utilized          
+    12.010840356             36,398      context-switches          #    0.019 M/sec                  
+    12.010840356              3,806      cpu-migrations            #    0.002 M/sec                  
+    12.010840356                  0      page-faults               #    0.000 K/sec                  
+    12.010840356     13,777,821,095      cycles                    #    7.166 GHz                      (38.06%)
+    12.010840356     11,408,774,709      stalled-cycles-frontend   #  231.63% frontend cycles idle     (47.09%)
+    12.010840356      5,602,075,186      instructions              #    1.14  insn per cycle         
+    12.010840356                                                   #    0.67  stalled cycles per insn  (59.79%)
+    12.010840356        645,097,651      branches                  #  335.544 M/sec                    (59.47%)
+    12.010840356          6,759,503      branch-misses             #    1.56% of all branches          (59.61%)
+    12.010840356        960,013,122      L1-dcache-loads           #  499.345 M/sec                    (35.59%)
+    12.010840356        155,180,336      L1-dcache-load-misses     #   25.87% of all L1-dcache hits    (27.41%)
+    12.010840356         74,215,356      LLC-loads                 #   38.603 M/sec                    (26.47%)
+    12.010840356    <not supported>      LLC-load-misses                                             
+    13.011628318           5,573.56 msec task-clock                #    5.574 CPUs utilized          
+    13.011628318             37,198      context-switches          #    0.017 M/sec                  
+    13.011628318              3,888      cpu-migrations            #    0.002 M/sec                  
+    13.011628318                  0      page-faults               #    0.000 K/sec                  
+    13.011628318     14,473,543,134      cycles                    #    6.569 GHz                      (37.94%)
+    13.011628318     11,977,558,844      stalled-cycles-frontend   #  211.62% frontend cycles idle     (46.84%)
+    13.011628318      5,776,391,522      instructions              #    1.02  insn per cycle         
+    13.011628318                                                   #    0.76  stalled cycles per insn  (59.56%)
+    13.011628318        659,704,335      branches                  #  299.404 M/sec                    (59.52%)
+    13.011628318          7,267,165      branch-misses             #    1.61% of all branches          (59.53%)
+    13.011628318      1,027,241,601      L1-dcache-loads           #  466.209 M/sec                    (34.78%)
+    13.011628318        160,969,851      L1-dcache-load-misses     #   25.44% of all L1-dcache hits    (27.10%)
+    13.011628318         76,492,118      LLC-loads                 #   34.716 M/sec                    (26.45%)
+    13.011628318    <not supported>      LLC-load-misses                                             
+    14.012257650           5,489.10 msec task-clock                #    5.489 CPUs utilized          
+    14.012257650             36,740      context-switches          #    0.015 M/sec                  
+    14.012257650              3,862      cpu-migrations            #    0.002 M/sec                  
+    14.012257650                  0      page-faults               #    0.000 K/sec                  
+    14.012257650     14,024,108,372      cycles                    #    5.752 GHz                      (37.94%)
+    14.012257650     11,621,561,204      stalled-cycles-frontend   #  185.73% frontend cycles idle     (46.80%)
+    14.012257650      5,747,799,788      instructions              #    0.92  insn per cycle         
+    14.012257650                                                   #    0.86  stalled cycles per insn  (59.54%)
+    14.012257650        624,780,806      branches                  #  256.259 M/sec                    (59.31%)
+    14.012257650          6,680,329      branch-misses             #    1.44% of all branches          (59.47%)
+    14.012257650      1,031,062,523      L1-dcache-loads           #  422.898 M/sec                    (34.34%)
+    14.012257650        154,755,697      L1-dcache-load-misses     #   23.40% of all L1-dcache hits    (27.17%)
+    14.012257650         71,530,172      LLC-loads                 #   29.339 M/sec                    (26.47%)
+    14.012257650    <not supported>      LLC-load-misses                                             
+    15.013171376           5,685.20 msec task-clock                #    5.685 CPUs utilized          
+    15.013171376             28,464      context-switches          #    0.011 M/sec                  
+    15.013171376              3,238      cpu-migrations            #    0.001 M/sec                  
+    15.013171376                  0      page-faults               #    0.000 K/sec                  
+    15.013171376     14,056,751,914      cycles                    #    5.295 GHz                      (37.95%)
+    15.013171376     11,851,005,037      stalled-cycles-frontend   #  174.86% frontend cycles idle     (46.77%)
+    15.013171376      4,795,458,733      instructions              #    0.71  insn per cycle         
+    15.013171376                                                   #    1.12  stalled cycles per insn  (59.51%)
+    15.013171376        486,455,372      branches                  #  183.253 M/sec                    (59.26%)
+    15.013171376          5,016,751      branch-misses             #    1.08% of all branches          (59.34%)
+    15.013171376        798,004,492      L1-dcache-loads           #  300.616 M/sec                    (34.06%)
+    15.013171376        159,784,820      L1-dcache-load-misses     #   23.84% of all L1-dcache hits    (27.17%)
+    15.013171376         78,111,274      LLC-loads                 #   29.425 M/sec                    (26.59%)
+    15.013171376    <not supported>      LLC-load-misses                                             
+    16.014037037           5,476.20 msec task-clock                #    5.476 CPUs utilized          
+    16.014037037             36,345      context-switches          #    0.013 M/sec                  
+    16.014037037              3,644      cpu-migrations            #    0.001 M/sec                  
+    16.014037037                  0      page-faults               #    0.000 K/sec                  
+    16.014037037     13,582,500,275      cycles                    #    4.798 GHz                      (37.87%)
+    16.014037037     11,253,074,953      stalled-cycles-frontend   #  156.24% frontend cycles idle     (46.66%)
+    16.014037037      5,602,993,382      instructions              #    0.78  insn per cycle         
+    16.014037037                                                   #    1.03  stalled cycles per insn  (59.38%)
+    16.014037037        658,905,134      branches                  #  232.754 M/sec                    (59.20%)
+    16.014037037          6,507,185      branch-misses             #    1.37% of all branches          (59.35%)
+    16.014037037        963,055,636      L1-dcache-loads           #  340.193 M/sec                    (33.87%)
+    16.014037037        156,957,076      L1-dcache-load-misses     #   22.79% of all L1-dcache hits    (27.12%)
+    16.014037037         72,739,373      LLC-loads                 #   25.695 M/sec                    (26.48%)
+    16.014037037    <not supported>      LLC-load-misses                                             
+    17.014729330           5,342.65 msec task-clock                #    5.343 CPUs utilized          
+    17.014729330             35,054      context-switches          #    0.012 M/sec                  
+    17.014729330              3,628      cpu-migrations            #    0.001 M/sec                  
+    17.014729330                  0      page-faults               #    0.000 K/sec                  
+    17.014729330     12,847,463,551      cycles                    #    4.313 GHz                      (37.78%)
+    17.014729330     10,644,064,940      stalled-cycles-frontend   #  141.27% frontend cycles idle     (46.71%)
+    17.014729330      5,211,715,106      instructions              #    0.69  insn per cycle         
+    17.014729330                                                   #    1.16  stalled cycles per insn  (59.37%)
+    17.014729330        622,093,215      branches                  #  208.850 M/sec                    (59.19%)
+    17.014729330          6,463,438      branch-misses             #    1.33% of all branches          (59.32%)
+    17.014729330        965,752,227      L1-dcache-loads           #  324.223 M/sec                    (33.90%)
+    17.014729330        143,922,279      L1-dcache-load-misses     #   20.42% of all L1-dcache hits    (27.17%)
+    17.014729330         68,789,926      LLC-loads                 #   23.094 M/sec                    (26.41%)
+    17.014729330    <not supported>      LLC-load-misses                                             
+    18.015613026           5,620.55 msec task-clock                #    5.621 CPUs utilized          
+    18.015613026             37,620      context-switches          #    0.012 M/sec                  
+    18.015613026              3,911      cpu-migrations            #    0.001 M/sec                  
+    18.015613026                  0      page-faults               #    0.000 K/sec                  
+    18.015613026     14,609,956,594      cycles                    #    4.675 GHz                      (37.83%)
+    18.015613026     12,115,601,629      stalled-cycles-frontend   #  152.83% frontend cycles idle     (46.73%)
+    18.015613026      5,888,365,126      instructions              #    0.74  insn per cycle         
+    18.015613026                                                   #    1.08  stalled cycles per insn  (59.38%)
+    18.015613026        614,245,474      branches                  #  196.531 M/sec                    (59.22%)
+    18.015613026          6,457,579      branch-misses             #    1.31% of all branches          (59.34%)
+    18.015613026      1,000,886,378      L1-dcache-loads           #  320.239 M/sec                    (33.86%)
+    18.015613026        166,936,385      L1-dcache-load-misses     #   23.14% of all L1-dcache hits    (27.16%)
+    18.015613026         81,586,114      LLC-loads                 #   26.104 M/sec                    (26.39%)
+    18.015613026    <not supported>      LLC-load-misses                                             
+    19.016753883           5,700.59 msec task-clock                #    5.701 CPUs utilized          
+    19.016753883             30,039      context-switches          #    0.009 M/sec                  
+    19.016753883              3,265      cpu-migrations            #    0.001 M/sec                  
+    19.016753883                  0      page-faults               #    0.000 K/sec                  
+    19.016753883     14,253,252,250      cycles                    #    4.371 GHz                      (37.85%)
+    19.016753883     11,940,091,332      stalled-cycles-frontend   #  144.54% frontend cycles idle     (46.63%)
+    19.016753883      5,213,995,879      instructions              #    0.63  insn per cycle         
+    19.016753883                                                   #    1.28  stalled cycles per insn  (59.26%)
+    19.016753883        598,590,783      branches                  #  183.562 M/sec                    (59.24%)
+    19.016753883          5,599,980      branch-misses             #    1.13% of all branches          (59.41%)
+    19.016753883        881,052,817      L1-dcache-loads           #  270.181 M/sec                    (33.70%)
+    19.016753883        160,358,971      L1-dcache-load-misses     #   21.97% of all L1-dcache hits    (27.08%)
+    19.016753883         75,694,114      LLC-loads                 #   23.212 M/sec                    (26.42%)
+    19.016753883    <not supported>      LLC-load-misses                                             
+    20.017394741           5,476.34 msec task-clock                #    5.476 CPUs utilized          
+    20.017394741             35,071      context-switches          #    0.010 M/sec                  
+    20.017394741              3,700      cpu-migrations            #    0.001 M/sec                  
+    20.017394741                  0      page-faults               #    0.000 K/sec                  
+    20.017394741     13,673,880,686      cycles                    #    4.055 GHz                      (37.84%)
+    20.017394741     11,352,939,421      stalled-cycles-frontend   #  133.07% frontend cycles idle     (46.69%)
+    20.017394741      5,009,930,119      instructions              #    0.59  insn per cycle         
+    20.017394741                                                   #    1.38  stalled cycles per insn  (59.30%)
+    20.017394741        477,643,513      branches                  #  141.661 M/sec                    (59.30%)
+    20.017394741          5,431,726      branch-misses             #    1.09% of all branches          (59.38%)
+    20.017394741        850,946,776      L1-dcache-loads           #  252.376 M/sec                    (33.62%)
+    20.017394741        156,757,548      L1-dcache-load-misses     #   21.30% of all L1-dcache hits    (27.07%)
+    20.017394741         76,898,045      LLC-loads                 #   22.807 M/sec                    (26.45%)
+    20.017394741    <not supported>      LLC-load-misses                                             
+    21.017992147           5,483.48 msec task-clock                #    5.483 CPUs utilized          
+    21.017992147             36,164      context-switches          #    0.010 M/sec                  
+    21.017992147              3,589      cpu-migrations            #    0.001 M/sec                  
+    21.017992147                  0      page-faults               #    0.000 K/sec                  
+    21.017992147     13,709,303,910      cycles                    #    3.948 GHz                      (37.86%)
+    21.017992147     11,310,538,073      stalled-cycles-frontend   #  128.85% frontend cycles idle     (46.73%)
+    21.017992147      5,658,016,160      instructions              #    0.64  insn per cycle         
+    21.017992147                                                   #    1.26  stalled cycles per insn  (59.30%)
+    21.017992147        634,700,106      branches                  #  182.790 M/sec                    (59.33%)
+    21.017992147          6,273,131      branch-misses             #    1.25% of all branches          (59.33%)
+    21.017992147        946,293,549      L1-dcache-loads           #  272.527 M/sec                    (33.55%)
+    21.017992147        155,237,584      L1-dcache-load-misses     #   20.81% of all L1-dcache hits    (27.03%)
+    21.017992147         73,470,868      LLC-loads                 #   21.159 M/sec                    (26.39%)
+    21.017992147    <not supported>      LLC-load-misses                                             
+    22.018731822           5,500.44 msec task-clock                #    5.500 CPUs utilized          
+    22.018731822             36,484      context-switches          #    0.010 M/sec                  
+    22.018731822              3,750      cpu-migrations            #    0.001 M/sec                  
+    22.018731822                  0      page-faults               #    0.000 K/sec                  
+    22.018731822     13,783,542,154      cycles                    #    3.867 GHz                      (37.90%)
+    22.018731822     11,336,103,542      stalled-cycles-frontend   #  125.88% frontend cycles idle     (46.74%)
+    22.018731822      5,691,722,914      instructions              #    0.63  insn per cycle         
+    22.018731822                                                   #    1.28  stalled cycles per insn  (59.27%)
+    22.018731822        653,845,410      branches                  #  183.433 M/sec                    (59.25%)
+    22.018731822          7,167,664      branch-misses             #    1.41% of all branches          (59.28%)
+    22.018731822        998,152,942      L1-dcache-loads           #  280.027 M/sec                    (33.51%)
+    22.018731822        155,127,993      L1-dcache-load-misses     #   20.48% of all L1-dcache hits    (27.09%)
+    22.018731822         75,640,005      LLC-loads                 #   21.220 M/sec                    (26.38%)
+    22.018731822    <not supported>      LLC-load-misses                                             
+    23.019467256           5,649.86 msec task-clock                #    5.650 CPUs utilized          
+    23.019467256             30,873      context-switches          #    0.008 M/sec                  
+    23.019467256              3,345      cpu-migrations            #    0.915 K/sec                  
+    23.019467256                  0      page-faults               #    0.000 K/sec                  
+    23.019467256     14,245,390,439      cycles                    #    3.897 GHz                      (37.86%)
+    23.019467256     11,829,264,105      stalled-cycles-frontend   #  128.12% frontend cycles idle     (46.78%)
+    23.019467256      5,336,820,320      instructions              #    0.58  insn per cycle         
+    23.019467256                                                   #    1.40  stalled cycles per insn  (59.33%)
+    23.019467256        596,267,805      branches                  #  163.131 M/sec                    (59.26%)
+    23.019467256          5,881,275      branch-misses             #    1.14% of all branches          (59.24%)
+    23.019467256        871,472,581      L1-dcache-loads           #  238.423 M/sec                    (33.53%)
+    23.019467256        156,372,207      L1-dcache-load-misses     #   20.51% of all L1-dcache hits    (27.11%)
+    23.019467256         77,093,628      LLC-loads                 #   21.092 M/sec                    (26.37%)
+    23.019467256    <not supported>      LLC-load-misses                                             
+    24.020059658           5,549.79 msec task-clock                #    5.550 CPUs utilized          
+    24.020059658             34,236      context-switches          #    0.009 M/sec                  
+    24.020059658              3,678      cpu-migrations            #    0.985 K/sec                  
+    24.020059658                  0      page-faults               #    0.000 K/sec                  
+    24.020059658     13,933,684,855      cycles                    #    3.731 GHz                      (37.84%)
+    24.020059658     11,659,204,991      stalled-cycles-frontend   #  123.65% frontend cycles idle     (46.80%)
+    24.020059658      5,118,086,008      instructions              #    0.54  insn per cycle         
+    24.020059658                                                   #    1.50  stalled cycles per insn  (59.39%)
+    24.020059658        477,051,312      branches                  #  127.756 M/sec                    (59.27%)
+    24.020059658          5,527,090      branch-misses             #    1.08% of all branches          (59.26%)
+    24.020059658        868,633,759      L1-dcache-loads           #  232.622 M/sec                    (33.53%)
+    24.020059658        162,960,453      L1-dcache-load-misses     #   21.25% of all L1-dcache hits    (27.06%)
+    24.020059658         76,742,512      LLC-loads                 #   20.552 M/sec                    (26.37%)
+    24.020059658    <not supported>      LLC-load-misses                                             
+    25.020909988           5,513.79 msec task-clock                #    5.514 CPUs utilized          
+    25.020909988             36,694      context-switches          #    0.010 M/sec                  
+    25.020909988              3,754      cpu-migrations            #    0.987 K/sec                  
+    25.020909988                  0      page-faults               #    0.000 K/sec                  
+    25.020909988     14,061,290,055      cycles                    #    3.695 GHz                      (37.84%)
+    25.020909988     11,508,237,065      stalled-cycles-frontend   #  119.70% frontend cycles idle     (46.82%)
+    25.020909988      5,749,634,175      instructions              #    0.60  insn per cycle         
+    25.020909988                                                   #    1.36  stalled cycles per insn  (59.41%)
+    25.020909988        639,606,204      branches                  #  168.084 M/sec                    (59.32%)
+    25.020909988          6,586,554      branch-misses             #    1.27% of all branches          (59.25%)
+    25.020909988        976,640,688      L1-dcache-loads           #  256.654 M/sec                    (33.48%)
+    25.020909988        160,214,173      L1-dcache-load-misses     #   20.67% of all L1-dcache hits    (27.08%)
+    25.020909988         74,510,468      LLC-loads                 #   19.581 M/sec                    (26.38%)
+    25.020909988    <not supported>      LLC-load-misses                                             
+#           time             counts unit events
+    26.021455815           5,540.55 msec task-clock                #    5.541 CPUs utilized          
+    26.021455815             37,013      context-switches          #    0.010 M/sec                  
+    26.021455815              3,898      cpu-migrations            #    0.001 M/sec                  
+    26.021455815                  0      page-faults               #    0.000 K/sec                  
+    26.021455815     14,302,177,502      cycles                    #    3.694 GHz                      (37.88%)
+    26.021455815     11,722,676,796      stalled-cycles-frontend   #  119.68% frontend cycles idle     (46.88%)
+    26.021455815      5,836,827,485      instructions              #    0.60  insn per cycle         
+    26.021455815                                                   #    1.37  stalled cycles per insn  (59.43%)
+    26.021455815        670,408,165      branches                  #  173.141 M/sec                    (59.34%)
+    26.021455815          6,750,548      branch-misses             #    1.29% of all branches          (59.28%)
+    26.021455815        991,265,912      L1-dcache-loads           #  256.007 M/sec                    (33.37%)
+    26.021455815        160,454,134      L1-dcache-load-misses     #   20.48% of all L1-dcache hits    (27.04%)
+    26.021455815         74,812,105      LLC-loads                 #   19.321 M/sec                    (26.39%)
+    26.021455815    <not supported>      LLC-load-misses                                             
+    27.022196874           5,437.74 msec task-clock                #    5.438 CPUs utilized          
+    27.022196874             35,930      context-switches          #    0.009 M/sec                  
+    27.022196874              3,750      cpu-migrations            #    0.954 K/sec                  
+    27.022196874                  0      page-faults               #    0.000 K/sec                  
+    27.022196874     13,418,759,780      cycles                    #    3.414 GHz                      (37.88%)
+    27.022196874     10,997,844,447      stalled-cycles-frontend   #  110.77% frontend cycles idle     (46.87%)
+    27.022196874      5,595,303,861      instructions              #    0.56  insn per cycle         
+    27.022196874                                                   #    1.45  stalled cycles per insn  (59.37%)
+    27.022196874        678,289,261      branches                  #  172.592 M/sec                    (59.27%)
+    27.022196874          7,044,914      branch-misses             #    1.33% of all branches          (59.21%)
+    27.022196874        945,533,117      L1-dcache-loads           #  240.593 M/sec                    (33.35%)
+    27.022196874        152,084,654      L1-dcache-load-misses     #   19.26% of all L1-dcache hits    (27.13%)
+    27.022196874         70,914,898      LLC-loads                 #   18.044 M/sec                    (26.39%)
+    27.022196874    <not supported>      LLC-load-misses                                             
+    28.022825368           5,774.45 msec task-clock                #    5.774 CPUs utilized          
+    28.022825368             32,376      context-switches          #    0.008 M/sec                  
+    28.022825368              3,626      cpu-migrations            #    0.907 K/sec                  
+    28.022825368                  0      page-faults               #    0.000 K/sec                  
+    28.022825368     15,242,555,240      cycles                    #    3.815 GHz                      (37.83%)
+    28.022825368     12,657,714,539      stalled-cycles-frontend   #  125.09% frontend cycles idle     (46.86%)
+    28.022825368      5,780,303,453      instructions              #    0.57  insn per cycle         
+    28.022825368                                                   #    1.43  stalled cycles per insn  (59.37%)
+    28.022825368        657,458,803      branches                  #  164.534 M/sec                    (59.29%)
+    28.022825368          6,339,751      branch-misses             #    1.19% of all branches          (59.22%)
+    28.022825368        920,673,327      L1-dcache-loads           #  230.405 M/sec                    (33.36%)
+    28.022825368        172,773,207      L1-dcache-load-misses     #   21.76% of all L1-dcache hits    (27.11%)
+    28.022825368         82,046,502      LLC-loads                 #   20.533 M/sec                    (26.41%)
+    28.022825368    <not supported>      LLC-load-misses                                             
+    29.023922667           5,578.73 msec task-clock                #    5.579 CPUs utilized          
+    29.023922667             34,461      context-switches          #    0.009 M/sec                  
+    29.023922667              3,646      cpu-migrations            #    0.900 K/sec                  
+    29.023922667                  0      page-faults               #    0.000 K/sec                  
+    29.023922667     14,064,077,434      cycles                    #    3.472 GHz                      (37.77%)
+    29.023922667     11,750,433,297      stalled-cycles-frontend   #  114.59% frontend cycles idle     (46.83%)
+    29.023922667      5,130,247,235      instructions              #    0.50  insn per cycle         
+    29.023922667                                                   #    1.63  stalled cycles per insn  (59.36%)
+    29.023922667        466,789,959      branches                  #  115.243 M/sec                    (59.21%)
+    29.023922667          5,788,375      branch-misses             #    1.09% of all branches          (59.19%)
+    29.023922667        859,488,500      L1-dcache-loads           #  212.195 M/sec                    (33.40%)
+    29.023922667        163,997,390      L1-dcache-load-misses     #   20.59% of all L1-dcache hits    (27.21%)
+    29.023922667         78,452,185      LLC-loads                 #   19.369 M/sec                    (26.40%)
+    29.023922667    <not supported>      LLC-load-misses                                             
+    30.024719568           5,491.64 msec task-clock                #    5.492 CPUs utilized          
+    30.024719568             36,533      context-switches          #    0.009 M/sec                  
+    30.024719568              3,846      cpu-migrations            #    0.938 K/sec                  
+    30.024719568                  0      page-faults               #    0.000 K/sec                  
+    30.024719568     13,843,522,095      cycles                    #    3.378 GHz                      (37.81%)
+    30.024719568     11,399,884,967      stalled-cycles-frontend   #  109.89% frontend cycles idle     (46.85%)
+    30.024719568      5,577,401,968      instructions              #    0.54  insn per cycle         
+    30.024719568                                                   #    1.52  stalled cycles per insn  (59.39%)
+    30.024719568        619,953,004      branches                  #  151.263 M/sec                    (59.22%)
+    30.024719568          6,773,346      branch-misses             #    1.27% of all branches          (59.21%)
+    30.024719568        961,490,662      L1-dcache-loads           #  234.595 M/sec                    (33.31%)
+    30.024719568        154,956,966      L1-dcache-load-misses     #   19.32% of all L1-dcache hits    (27.12%)
+    30.024719568         74,122,309      LLC-loads                 #   18.085 M/sec                    (26.41%)
+    30.024719568    <not supported>      LLC-load-misses                                             
+    31.025507800           5,472.70 msec task-clock                #    5.473 CPUs utilized          
+    31.025507800             36,224      context-switches          #    0.009 M/sec                  
+    31.025507800              3,716      cpu-migrations            #    0.897 K/sec                  
+    31.025507800                  0      page-faults               #    0.000 K/sec                  
+    31.025507800     13,717,818,201      cycles                    #    3.311 GHz                      (37.81%)
+    31.025507800     11,168,105,783      stalled-cycles-frontend   #  106.54% frontend cycles idle     (46.83%)
+    31.025507800      5,831,386,749      instructions              #    0.56  insn per cycle         
+    31.025507800                                                   #    1.47  stalled cycles per insn  (59.36%)
+    31.025507800        647,834,348      branches                  #  156.375 M/sec                    (59.19%)
+    31.025507800          6,859,528      branch-misses             #    1.28% of all branches          (59.17%)
+    31.025507800        945,162,959      L1-dcache-loads           #  228.144 M/sec                    (33.28%)
+    31.025507800        153,338,203      L1-dcache-load-misses     #   19.01% of all L1-dcache hits    (27.15%)
+    31.025507800         72,691,018      LLC-loads                 #   17.546 M/sec                    (26.43%)
+    31.025507800    <not supported>      LLC-load-misses                                             
+    32.026227283           5,474.38 msec task-clock                #    5.474 CPUs utilized          
+    32.026227283             35,033      context-switches          #    0.008 M/sec                  
+    32.026227283              3,732      cpu-migrations            #    0.892 K/sec                  
+    32.026227283                  0      page-faults               #    0.000 K/sec                  
+    32.026227283     13,786,558,045      cycles                    #    3.295 GHz                      (37.79%)
+    32.026227283     11,364,343,710      stalled-cycles-frontend   #  107.36% frontend cycles idle     (46.82%)
+    32.026227283      5,663,796,668      instructions              #    0.54  insn per cycle         
+    32.026227283                                                   #    1.53  stalled cycles per insn  (59.37%)
+    32.026227283        678,703,628      branches                  #  162.197 M/sec                    (59.23%)
+    32.026227283          6,624,042      branch-misses             #    1.22% of all branches          (59.22%)
+    32.026227283        912,014,281      L1-dcache-loads           #  217.953 M/sec                    (33.28%)
+    32.026227283        159,068,903      L1-dcache-load-misses     #   19.64% of all L1-dcache hits    (27.12%)
+    32.026227283         78,689,357      LLC-loads                 #   18.805 M/sec                    (26.40%)
+    32.026227283    <not supported>      LLC-load-misses                                             
+    33.027103171           5,666.68 msec task-clock                #    5.667 CPUs utilized          
+    33.027103171             29,811      context-switches          #    0.007 M/sec                  
+    33.027103171              3,349      cpu-migrations            #    0.792 K/sec                  
+    33.027103171                  0      page-faults               #    0.000 K/sec                  
+    33.027103171     14,154,040,376      cycles                    #    3.347 GHz                      (37.79%)
+    33.027103171     12,062,090,587      stalled-cycles-frontend   #  112.80% frontend cycles idle     (46.80%)
+    33.027103171      4,534,285,744      instructions              #    0.42  insn per cycle         
+    33.027103171                                                   #    1.93  stalled cycles per insn  (59.36%)
+    33.027103171        458,638,459      branches                  #  108.441 M/sec                    (59.21%)
+    33.027103171          5,198,802      branch-misses             #    0.96% of all branches          (59.19%)
+    33.027103171        843,357,266      L1-dcache-loads           #  199.405 M/sec                    (33.23%)
+    33.027103171        162,192,118      L1-dcache-load-misses     #   20.00% of all L1-dcache hits    (27.15%)
+    33.027103171         78,022,173      LLC-loads                 #   18.448 M/sec                    (26.42%)
+    33.027103171    <not supported>      LLC-load-misses                                             
+    34.027962919           5,461.58 msec task-clock                #    5.462 CPUs utilized          
+    34.027962919             36,215      context-switches          #    0.008 M/sec                  
+    34.027962919              3,845      cpu-migrations            #    0.901 K/sec                  
+    34.027962919                  0      page-faults               #    0.000 K/sec                  
+    34.027962919     13,784,567,504      cycles                    #    3.232 GHz                      (37.80%)
+    34.027962919     11,234,900,562      stalled-cycles-frontend   #  104.18% frontend cycles idle     (46.81%)
+    34.027962919      5,619,220,597      instructions              #    0.52  insn per cycle         
+    34.027962919                                                   #    1.57  stalled cycles per insn  (59.33%)
+    34.027962919        576,424,767      branches                  #  135.133 M/sec                    (59.20%)
+    34.027962919          6,395,160      branch-misses             #    1.18% of all branches          (59.17%)
+    34.027962919        984,881,773      L1-dcache-loads           #  230.889 M/sec                    (33.22%)
+    34.027962919        154,674,382      L1-dcache-load-misses     #   18.96% of all L1-dcache hits    (27.13%)
+    34.027962919         72,178,510      LLC-loads                 #   16.921 M/sec                    (26.44%)
+    34.027962919    <not supported>      LLC-load-misses                                             
+    35.028635263           5,512.78 msec task-clock                #    5.513 CPUs utilized          
+    35.028635263             36,617      context-switches          #    0.009 M/sec                  
+    35.028635263              3,745      cpu-migrations            #    0.871 K/sec                  
+    35.028635263                  0      page-faults               #    0.000 K/sec                  
+    35.028635263     13,914,808,739      cycles                    #    3.235 GHz                      (37.82%)
+    35.028635263     11,482,785,885      stalled-cycles-frontend   #  105.60% frontend cycles idle     (46.82%)
+    35.028635263      5,679,033,598      instructions              #    0.52  insn per cycle         
+    35.028635263                                                   #    1.57  stalled cycles per insn  (59.35%)
+    35.028635263        610,064,331      branches                  #  141.835 M/sec                    (59.21%)
+    35.028635263          6,227,722      branch-misses             #    1.15% of all branches          (59.16%)
+    35.028635263        978,881,766      L1-dcache-loads           #  227.581 M/sec                    (33.23%)
+    35.028635263        156,496,938      L1-dcache-load-misses     #   19.07% of all L1-dcache hits    (27.14%)
+    35.028635263         72,662,733      LLC-loads                 #   16.893 M/sec                    (26.46%)
+    35.028635263    <not supported>      LLC-load-misses                                             
+    36.029219439           5,513.27 msec task-clock                #    5.513 CPUs utilized          
+    36.029219439             36,662      context-switches          #    0.008 M/sec                  
+    36.029219439              3,779      cpu-migrations            #    0.872 K/sec                  
+    36.029219439                  0      page-faults               #    0.000 K/sec                  
+    36.029219439     13,986,253,667      cycles                    #    3.226 GHz                      (37.84%)
+    36.029219439     11,583,189,557      stalled-cycles-frontend   #  105.68% frontend cycles idle     (46.81%)
+    36.029219439      5,536,147,363      instructions              #    0.51  insn per cycle         
+    36.029219439                                                   #    1.62  stalled cycles per insn  (59.35%)
+    36.029219439        629,565,080      branches                  #  145.232 M/sec                    (59.26%)
+    36.029219439          6,518,662      branch-misses             #    1.20% of all branches          (59.20%)
+    36.029219439        985,898,361      L1-dcache-loads           #  227.432 M/sec                    (33.12%)
+    36.029219439        159,690,995      L1-dcache-load-misses     #   19.35% of all L1-dcache hits    (27.12%)
+    36.029219439         77,128,528      LLC-loads                 #   17.792 M/sec                    (26.45%)
+    36.029219439    <not supported>      LLC-load-misses                                             
+    37.029834719           5,705.49 msec task-clock                #    5.705 CPUs utilized          
+    37.029834719             30,489      context-switches          #    0.007 M/sec                  
+    37.029834719              3,411      cpu-migrations            #    0.780 K/sec                  
+    37.029834719                  0      page-faults               #    0.000 K/sec                  
+    37.029834719     14,678,262,876      cycles                    #    3.357 GHz                      (37.77%)
+    37.029834719     12,206,349,856      stalled-cycles-frontend   #  110.36% frontend cycles idle     (46.77%)
+    37.029834719      5,349,534,239      instructions              #    0.48  insn per cycle         
+    37.029834719                                                   #    1.69  stalled cycles per insn  (59.31%)
+    37.029834719        611,439,526      branches                  #  139.855 M/sec                    (59.26%)
+    37.029834719          6,117,330      branch-misses             #    1.12% of all branches          (59.21%)
+    37.029834719        881,390,010      L1-dcache-loads           #  201.601 M/sec                    (33.11%)
+    37.029834719        164,713,173      L1-dcache-load-misses     #   19.92% of all L1-dcache hits    (27.11%)
+    37.029834719         80,270,030      LLC-loads                 #   18.360 M/sec                    (26.42%)
+    37.029834719    <not supported>      LLC-load-misses                                             
+    38.030737642           5,619.37 msec task-clock                #    5.619 CPUs utilized          
+    38.030737642             36,158      context-switches          #    0.008 M/sec                  
+    38.030737642              3,914      cpu-migrations            #    0.889 K/sec                  
+    38.030737642                  0      page-faults               #    0.000 K/sec                  
+    38.030737642     14,674,337,164      cycles                    #    3.331 GHz                      (37.80%)
+    38.030737642     12,285,376,154      stalled-cycles-frontend   #  110.12% frontend cycles idle     (46.80%)
+    38.030737642      5,241,864,666      instructions              #    0.47  insn per cycle         
+    38.030737642                                                   #    1.74  stalled cycles per insn  (59.31%)
+    38.030737642        495,912,071      branches                  #  112.585 M/sec                    (59.27%)
+    38.030737642          6,027,847      branch-misses             #    1.10% of all branches          (59.19%)
+    38.030737642        900,059,738      L1-dcache-loads           #  204.337 M/sec                    (33.07%)
+    38.030737642        170,946,487      L1-dcache-load-misses     #   20.63% of all L1-dcache hits    (27.10%)
+    38.030737642         84,072,270      LLC-loads                 #   19.087 M/sec                    (26.46%)
+    38.030737642    <not supported>      LLC-load-misses                                             
+    39.031627823           5,364.31 msec task-clock                #    5.364 CPUs utilized          
+    39.031627823             35,176      context-switches          #    0.008 M/sec                  
+    39.031627823              3,771      cpu-migrations            #    0.851 K/sec                  
+    39.031627823                  0      page-faults               #    0.000 K/sec                  
+    39.031627823     12,949,852,936      cycles                    #    2.924 GHz                      (37.76%)
+    39.031627823     10,615,144,762      stalled-cycles-frontend   #   94.76% frontend cycles idle     (46.78%)
+    39.031627823      5,591,116,595      instructions              #    0.50  insn per cycle         
+    39.031627823                                                   #    1.64  stalled cycles per insn  (59.29%)
+    39.031627823        656,703,704      branches                  #  148.261 M/sec                    (59.30%)
+    39.031627823          6,728,783      branch-misses             #    1.23% of all branches          (59.22%)
+    39.031627823        899,384,876      L1-dcache-loads           #  203.050 M/sec                    (33.01%)
+    39.031627823        144,213,918      L1-dcache-load-misses     #   17.37% of all L1-dcache hits    (27.06%)
+    39.031627823         66,964,740      LLC-loads                 #   15.118 M/sec                    (26.42%)
+    39.031627823    <not supported>      LLC-load-misses                                             
+    40.032404934           5,546.33 msec task-clock                #    5.546 CPUs utilized          
+    40.032404934             36,869      context-switches          #    0.008 M/sec                  
+    40.032404934              3,780      cpu-migrations            #    0.848 K/sec                  
+    40.032404934                  0      page-faults               #    0.000 K/sec                  
+    40.032404934     14,228,670,848      cycles                    #    3.192 GHz                      (37.77%)
+    40.032404934     11,736,472,849      stalled-cycles-frontend   #  104.07% frontend cycles idle     (46.80%)
+    40.032404934      5,920,477,675      instructions              #    0.52  insn per cycle         
+    40.032404934                                                   #    1.56  stalled cycles per insn  (59.32%)
+    40.032404934        702,950,764      branches                  #  157.708 M/sec                    (59.30%)
+    40.032404934          6,905,812      branch-misses             #    1.25% of all branches          (59.18%)
+    40.032404934        949,525,216      L1-dcache-loads           #  213.027 M/sec                    (32.97%)
+    40.032404934        163,900,628      L1-dcache-load-misses     #   19.67% of all L1-dcache hits    (27.09%)
+    40.032404934         76,577,138      LLC-loads                 #   17.180 M/sec                    (26.45%)
+    40.032404934    <not supported>      LLC-load-misses                                             
+    41.033175519           5,537.50 msec task-clock                #    5.537 CPUs utilized          
+    41.033175519             37,068      context-switches          #    0.008 M/sec                  
+    41.033175519              3,870      cpu-migrations            #    0.863 K/sec                  
+    41.033175519                  0      page-faults               #    0.000 K/sec                  
+    41.033175519     14,241,399,187      cycles                    #    3.176 GHz                      (37.78%)
+    41.033175519     11,793,987,734      stalled-cycles-frontend   #  103.91% frontend cycles idle     (46.80%)
+    41.033175519      5,784,152,529      instructions              #    0.51  insn per cycle         
+    41.033175519                                                   #    1.61  stalled cycles per insn  (59.31%)
+    41.033175519        665,382,247      branches                  #  148.402 M/sec                    (59.27%)
+    41.033175519          6,682,126      branch-misses             #    1.20% of all branches          (59.17%)
+    41.033175519        970,379,993      L1-dcache-loads           #  216.426 M/sec                    (32.98%)
+    41.033175519        164,114,814      L1-dcache-load-misses     #   19.61% of all L1-dcache hits    (27.10%)
+    41.033175519         77,542,436      LLC-loads                 #   17.294 M/sec                    (26.44%)
+    41.033175519    <not supported>      LLC-load-misses                                             
+    42.034089006           5,745.14 msec task-clock                #    5.745 CPUs utilized          
+    42.034089006             28,672      context-switches          #    0.006 M/sec                  
+    42.034089006              3,292      cpu-migrations            #    0.729 K/sec                  
+    42.034089006                  0      page-faults               #    0.000 K/sec                  
+    42.034089006     14,581,359,110      cycles                    #    3.230 GHz                      (37.78%)
+    42.034089006     12,190,896,303      stalled-cycles-frontend   #  106.69% frontend cycles idle     (46.78%)
+    42.034089006      5,214,363,144      instructions              #    0.46  insn per cycle         
+    42.034089006                                                   #    1.80  stalled cycles per insn  (59.29%)
+    42.034089006        598,155,288      branches                  #  132.520 M/sec                    (59.23%)
+    42.034089006          6,006,457      branch-misses             #    1.08% of all branches          (59.13%)
+    42.034089006        823,319,470      L1-dcache-loads           #  182.405 M/sec                    (32.98%)
+    42.034089006        165,797,581      L1-dcache-load-misses     #   19.82% of all L1-dcache hits    (27.11%)
+    42.034089006         78,545,366      LLC-loads                 #   17.402 M/sec                    (26.46%)
+    42.034089006    <not supported>      LLC-load-misses                                             
+    43.034970256           5,514.04 msec task-clock                #    5.514 CPUs utilized          
+    43.034970256             37,418      context-switches          #    0.008 M/sec                  
+    43.034970256              3,957      cpu-migrations            #    0.872 K/sec                  
+    43.034970256                  0      page-faults               #    0.000 K/sec                  
+    43.034970256     14,100,514,839      cycles                    #    3.108 GHz                      (37.76%)
+    43.034970256     11,822,512,701      stalled-cycles-frontend   #  102.90% frontend cycles idle     (46.76%)
+    43.034970256      5,307,184,712      instructions              #    0.46  insn per cycle         
+    43.034970256                                                   #    1.78  stalled cycles per insn  (59.28%)
+    43.034970256        546,825,493      branches                  #  120.527 M/sec                    (59.20%)
+    43.034970256          6,203,676      branch-misses             #    1.12% of all branches          (59.13%)
+    43.034970256        951,031,321      L1-dcache-loads           #  209.619 M/sec                    (33.00%)
+    43.034970256        165,788,563      L1-dcache-load-misses     #   19.76% of all L1-dcache hits    (27.09%)
+    43.034970256         78,128,277      LLC-loads                 #   17.220 M/sec                    (26.45%)
+    43.034970256    <not supported>      LLC-load-misses                                             
+    44.035918828           5,577.23 msec task-clock                #    5.577 CPUs utilized          
+    44.035918828             37,601      context-switches          #    0.008 M/sec                  
+    44.035918828              3,821      cpu-migrations            #    0.838 K/sec                  
+    44.035918828                  0      page-faults               #    0.000 K/sec                  
+    44.035918828     14,618,625,604      cycles                    #    3.205 GHz                      (37.77%)
+    44.035918828     12,080,381,290      stalled-cycles-frontend   #  104.50% frontend cycles idle     (46.77%)
+    44.035918828      5,811,838,352      instructions              #    0.50  insn per cycle         
+    44.035918828                                                   #    1.63  stalled cycles per insn  (59.27%)
+    44.035918828        595,630,087      branches                  #  130.604 M/sec                    (59.20%)
+    44.035918828          6,544,488      branch-misses             #    1.18% of all branches          (59.13%)
+    44.035918828      1,030,269,074      L1-dcache-loads           #  225.907 M/sec                    (33.02%)
+    44.035918828        162,636,027      L1-dcache-load-misses     #   19.28% of all L1-dcache hits    (27.11%)
+    44.035918828         76,909,939      LLC-loads                 #   16.864 M/sec                    (26.45%)
+    44.035918828    <not supported>      LLC-load-misses                                             
+    45.036750958           5,514.35 msec task-clock                #    5.514 CPUs utilized          
+    45.036750958             36,569      context-switches          #    0.008 M/sec                  
+    45.036750958              3,766      cpu-migrations            #    0.822 K/sec                  
+    45.036750958                  0      page-faults               #    0.000 K/sec                  
+    45.036750958     13,969,257,190      cycles                    #    3.049 GHz                      (37.76%)
+    45.036750958     11,516,312,218      stalled-cycles-frontend   #   99.16% frontend cycles idle     (46.75%)
+    45.036750958      5,682,509,789      instructions              #    0.49  insn per cycle         
+    45.036750958                                                   #    1.68  stalled cycles per insn  (59.29%)
+    45.036750958        623,161,266      branches                  #  136.008 M/sec                    (59.20%)
+    45.036750958          6,739,985      branch-misses             #    1.21% of all branches          (59.11%)
+    45.036750958        959,403,574      L1-dcache-loads           #  209.395 M/sec                    (33.04%)
+    45.036750958        156,307,571      L1-dcache-load-misses     #   18.48% of all L1-dcache hits    (27.12%)
+    45.036750958         75,040,044      LLC-loads                 #   16.378 M/sec                    (26.46%)
+    45.036750958    <not supported>      LLC-load-misses                                             
+    46.037574877           5,467.44 msec task-clock                #    5.467 CPUs utilized          
+    46.037574877             36,422      context-switches          #    0.008 M/sec                  
+    46.037574877              3,714      cpu-migrations            #    0.807 K/sec                  
+    46.037574877                  0      page-faults               #    0.000 K/sec                  
+    46.037574877     13,636,234,210      cycles                    #    2.964 GHz                      (37.77%)
+    46.037574877     11,177,928,218      stalled-cycles-frontend   #   95.88% frontend cycles idle     (46.75%)
+    46.037574877      5,854,366,302      instructions              #    0.50  insn per cycle         
+    46.037574877                                                   #    1.64  stalled cycles per insn  (59.28%)
+    46.037574877        694,638,536      branches                  #  150.974 M/sec                    (59.16%)
+    46.037574877          6,865,104      branch-misses             #    1.22% of all branches          (59.09%)
+    46.037574877        936,921,722      L1-dcache-loads           #  203.633 M/sec                    (33.03%)
+    46.037574877        156,390,929      L1-dcache-load-misses     #   18.44% of all L1-dcache hits    (27.13%)
+    46.037574877         73,064,432      LLC-loads                 #   15.880 M/sec                    (26.46%)
+    46.037574877    <not supported>      LLC-load-misses                                             
+    47.038392146           5,698.36 msec task-clock                #    5.698 CPUs utilized          
+    47.038392146             30,260      context-switches          #    0.007 M/sec                  
+    47.038392146              3,379      cpu-migrations            #    0.731 K/sec                  
+    47.038392146                  0      page-faults               #    0.000 K/sec                  
+    47.038392146     14,489,460,178      cycles                    #    3.133 GHz                      (37.74%)
+    47.038392146     12,117,821,300      stalled-cycles-frontend   #  103.41% frontend cycles idle     (46.72%)
+    47.038392146      5,277,202,439      instructions              #    0.45  insn per cycle         
+    47.038392146                                                   #    1.82  stalled cycles per insn  (59.26%)
+    47.038392146        636,083,621      branches                  #  137.550 M/sec                    (59.17%)
+    47.038392146          6,176,836      branch-misses             #    1.10% of all branches          (59.11%)
+    47.038392146        893,451,666      L1-dcache-loads           #  193.204 M/sec                    (33.03%)
+    47.038392146        160,982,419      L1-dcache-load-misses     #   18.96% of all L1-dcache hits    (27.12%)
+    47.038392146         77,695,058      LLC-loads                 #   16.801 M/sec                    (26.44%)
+    47.038392146    <not supported>      LLC-load-misses                                             
+    48.039378783           5,511.86 msec task-clock                #    5.512 CPUs utilized          
+    48.039378783             35,281      context-switches          #    0.008 M/sec                  
+    48.039378783              3,700      cpu-migrations            #    0.797 K/sec                  
+    48.039378783                  0      page-faults               #    0.000 K/sec                  
+    48.039378783     13,892,947,620      cycles                    #    2.992 GHz                      (37.76%)
+    48.039378783     11,627,493,508      stalled-cycles-frontend   #   98.85% frontend cycles idle     (46.73%)
+    48.039378783      5,168,591,763      instructions              #    0.44  insn per cycle         
+    48.039378783                                                   #    1.87  stalled cycles per insn  (59.26%)
+    48.039378783        509,855,680      branches                  #  109.815 M/sec                    (59.19%)
+    48.039378783          6,087,082      branch-misses             #    1.08% of all branches          (59.12%)
+    48.039378783        851,517,417      L1-dcache-loads           #  183.403 M/sec                    (33.00%)
+    48.039378783        162,028,274      L1-dcache-load-misses     #   19.08% of all L1-dcache hits    (27.12%)
+    48.039378783         76,386,781      LLC-loads                 #   16.452 M/sec                    (26.44%)
+    48.039378783    <not supported>      LLC-load-misses                                             
+    49.040573316           5,534.15 msec task-clock                #    5.534 CPUs utilized          
+    49.040573316             36,697      context-switches          #    0.008 M/sec                  
+    49.040573316              3,888      cpu-migrations            #    0.834 K/sec                  
+    49.040573316                  0      page-faults               #    0.000 K/sec                  
+    49.040573316     14,056,859,420      cycles                    #    3.016 GHz                      (37.75%)
+    49.040573316     11,527,690,097      stalled-cycles-frontend   #   97.61% frontend cycles idle     (46.73%)
+    49.040573316      5,766,672,231      instructions              #    0.49  insn per cycle         
+    49.040573316                                                   #    1.68  stalled cycles per insn  (59.26%)
+    49.040573316        672,201,749      branches                  #  144.216 M/sec                    (59.22%)
+    49.040573316          6,916,838      branch-misses             #    1.23% of all branches          (59.11%)
+    49.040573316        952,437,035      L1-dcache-loads           #  204.339 M/sec                    (32.99%)
+    49.040573316        161,390,113      L1-dcache-load-misses     #   18.96% of all L1-dcache hits    (27.11%)
+    49.040573316         76,637,589      LLC-loads                 #   16.442 M/sec                    (26.42%)
+    49.040573316    <not supported>      LLC-load-misses                                             
+    50.041311982           5,307.50 msec task-clock                #    5.308 CPUs utilized          
+    50.041311982             34,843      context-switches          #    0.007 M/sec                  
+    50.041311982              3,624      cpu-migrations            #    0.775 K/sec                  
+    50.041311982                  0      page-faults               #    0.000 K/sec                  
+    50.041311982     12,542,069,145      cycles                    #    2.683 GHz                      (37.74%)
+    50.041311982     10,358,291,249      stalled-cycles-frontend   #   87.60% frontend cycles idle     (46.71%)
+    50.041311982      5,210,085,710      instructions              #    0.44  insn per cycle         
+    50.041311982                                                   #    1.87  stalled cycles per insn  (59.25%)
+    50.041311982        567,691,735      branches                  #  121.458 M/sec                    (59.21%)
+    50.041311982          6,199,657      branch-misses             #    1.10% of all branches          (59.11%)
+    50.041311982        933,005,372      L1-dcache-loads           #  199.616 M/sec                    (32.98%)
+    50.041311982        142,697,792      L1-dcache-load-misses     #   16.73% of all L1-dcache hits    (27.14%)
+    50.041311982         67,462,806      LLC-loads                 #   14.434 M/sec                    (26.42%)
+    50.041311982    <not supported>      LLC-load-misses                                             
+#           time             counts unit events
+    51.042073205           5,670.82 msec task-clock                #    5.671 CPUs utilized          
+    51.042073205             28,302      context-switches          #    0.006 M/sec                  
+    51.042073205              3,235      cpu-migrations            #    0.689 K/sec                  
+    51.042073205                  0      page-faults               #    0.000 K/sec                  
+    51.042073205     14,076,563,678      cycles                    #    2.999 GHz                      (37.74%)
+    51.042073205     11,845,616,350      stalled-cycles-frontend   #   99.80% frontend cycles idle     (46.71%)
+    51.042073205      4,809,307,008      instructions              #    0.41  insn per cycle         
+    51.042073205                                                   #    2.03  stalled cycles per insn  (59.24%)
+    51.042073205        545,698,774      branches                  #  116.266 M/sec                    (59.20%)
+    51.042073205          5,588,247      branch-misses             #    0.99% of all branches          (59.08%)
+    51.042073205        812,437,641      L1-dcache-loads           #  173.097 M/sec                    (33.00%)
+    51.042073205        159,851,143      L1-dcache-load-misses     #   18.76% of all L1-dcache hits    (27.14%)
+    51.042073205         76,423,462      LLC-loads                 #   16.283 M/sec                    (26.41%)
+    51.042073205    <not supported>      LLC-load-misses                                             
+    52.042873317           5,474.25 msec task-clock                #    5.474 CPUs utilized          
+    52.042873317             36,580      context-switches          #    0.008 M/sec                  
+    52.042873317              3,710      cpu-migrations            #    0.788 K/sec                  
+    52.042873317                  0      page-faults               #    0.000 K/sec                  
+    52.042873317     13,702,173,423      cycles                    #    2.910 GHz                      (37.74%)
+    52.042873317     11,246,435,919      stalled-cycles-frontend   #   94.48% frontend cycles idle     (46.72%)
+    52.042873317      5,553,215,472      instructions              #    0.47  insn per cycle         
+    52.042873317                                                   #    1.76  stalled cycles per insn  (59.27%)
+    52.042873317        575,939,257      branches                  #  122.318 M/sec                    (59.22%)
+    52.042873317          6,113,153      branch-misses             #    1.08% of all branches          (59.08%)
+    52.042873317        911,753,779      L1-dcache-loads           #  193.638 M/sec                    (32.98%)
+    52.042873317        158,418,309      L1-dcache-load-misses     #   18.57% of all L1-dcache hits    (27.16%)
+    52.042873317         75,742,189      LLC-loads                 #   16.086 M/sec                    (26.43%)
+    52.042873317    <not supported>      LLC-load-misses                                             
+    53.043436404           5,341.60 msec task-clock                #    5.342 CPUs utilized          
+    53.043436404             35,321      context-switches          #    0.007 M/sec                  
+    53.043436404              3,628      cpu-migrations            #    0.769 K/sec                  
+    53.043436404                  0      page-faults               #    0.000 K/sec                  
+    53.043436404     12,913,618,695      cycles                    #    2.736 GHz                      (37.76%)
+    53.043436404     10,508,477,643      stalled-cycles-frontend   #   88.14% frontend cycles idle     (46.75%)
+    53.043436404      5,572,192,295      instructions              #    0.47  insn per cycle         
+    53.043436404                                                   #    1.76  stalled cycles per insn  (59.28%)
+    53.043436404        604,908,704      branches                  #  128.145 M/sec                    (59.21%)
+    53.043436404          6,417,160      branch-misses             #    1.14% of all branches          (59.05%)
+    53.043436404        921,426,090      L1-dcache-loads           #  195.197 M/sec                    (32.94%)
+    53.043436404        141,970,514      L1-dcache-load-misses     #   16.62% of all L1-dcache hits    (27.17%)
+    53.043436404         68,480,095      LLC-loads                 #   14.507 M/sec                    (26.46%)
+    53.043436404    <not supported>      LLC-load-misses                                             
+    54.044412781           5,557.23 msec task-clock                #    5.557 CPUs utilized          
+    54.044412781             36,893      context-switches          #    0.008 M/sec                  
+    54.044412781              3,870      cpu-migrations            #    0.817 K/sec                  
+    54.044412781                  0      page-faults               #    0.000 K/sec                  
+    54.044412781     14,228,867,702      cycles                    #    3.004 GHz                      (37.73%)
+    54.044412781     11,635,111,313      stalled-cycles-frontend   #   97.24% frontend cycles idle     (46.74%)
+    54.044412781      5,877,218,658      instructions              #    0.49  insn per cycle         
+    54.044412781                                                   #    1.67  stalled cycles per insn  (59.26%)
+    54.044412781        650,180,756      branches                  #  137.285 M/sec                    (59.21%)
+    54.044412781          6,709,127      branch-misses             #    1.18% of all branches          (59.07%)
+    54.044412781        948,210,943      L1-dcache-loads           #  200.214 M/sec                    (32.93%)
+    54.044412781        159,140,147      L1-dcache-load-misses     #   18.59% of all L1-dcache hits    (27.14%)
+    54.044412781         76,040,762      LLC-loads                 #   16.056 M/sec                    (26.44%)
+    54.044412781    <not supported>      LLC-load-misses                                             
+    55.045302564           5,715.78 msec task-clock                #    5.716 CPUs utilized          
+    55.045302564             28,489      context-switches          #    0.006 M/sec                  
+    55.045302564              3,196      cpu-migrations            #    0.672 K/sec                  
+    55.045302564                  0      page-faults               #    0.000 K/sec                  
+    55.045302564     14,288,706,172      cycles                    #    3.006 GHz                      (37.74%)
+    55.045302564     12,038,359,775      stalled-cycles-frontend   #  100.25% frontend cycles idle     (46.73%)
+    55.045302564      4,981,189,743      instructions              #    0.41  insn per cycle         
+    55.045302564                                                   #    1.98  stalled cycles per insn  (59.26%)
+    55.045302564        551,243,768      branches                  #  115.958 M/sec                    (59.20%)
+    55.045302564          5,685,998      branch-misses             #    1.00% of all branches          (59.08%)
+    55.045302564        805,074,603      L1-dcache-loads           #  169.354 M/sec                    (32.91%)
+    55.045302564        163,162,159      L1-dcache-load-misses     #   19.08% of all L1-dcache hits    (27.10%)
+    55.045302564         79,386,282      LLC-loads                 #   16.700 M/sec                    (26.42%)
+    55.045302564    <not supported>      LLC-load-misses                                             
+    56.046157520           5,489.13 msec task-clock                #    5.489 CPUs utilized          
+    56.046157520             36,576      context-switches          #    0.008 M/sec                  
+    56.046157520              3,746      cpu-migrations            #    0.786 K/sec                  
+    56.046157520                  0      page-faults               #    0.000 K/sec                  
+    56.046157520     13,878,247,461      cycles                    #    2.911 GHz                      (37.76%)
+    56.046157520     11,558,032,126      stalled-cycles-frontend   #   95.99% frontend cycles idle     (46.73%)
+    56.046157520      5,195,374,430      instructions              #    0.43  insn per cycle         
+    56.046157520                                                   #    1.91  stalled cycles per insn  (59.26%)
+    56.046157520        517,183,092      branches                  #  108.494 M/sec                    (59.18%)
+    56.046157520          6,261,966      branch-misses             #    1.11% of all branches          (59.05%)
+    56.046157520        977,253,750      L1-dcache-loads           #  205.007 M/sec                    (32.90%)
+    56.046157520        158,094,338      L1-dcache-load-misses     #   18.44% of all L1-dcache hits    (27.11%)
+    56.046157520         77,015,246      LLC-loads                 #   16.156 M/sec                    (26.44%)
+    56.046157520    <not supported>      LLC-load-misses                                             
+    57.046994185           5,469.52 msec task-clock                #    5.470 CPUs utilized          
+    57.046994185             36,288      context-switches          #    0.008 M/sec                  
+    57.046994185              3,727      cpu-migrations            #    0.780 K/sec                  
+    57.046994185                  0      page-faults               #    0.000 K/sec                  
+    57.046994185     13,801,595,010      cycles                    #    2.888 GHz                      (37.76%)
+    57.046994185     11,370,624,499      stalled-cycles-frontend   #   94.19% frontend cycles idle     (46.75%)
+    57.046994185      5,684,368,097      instructions              #    0.47  insn per cycle         
+    57.046994185                                                   #    1.75  stalled cycles per insn  (59.27%)
+    57.046994185        659,084,028      branches                  #  137.905 M/sec                    (59.21%)
+    57.046994185          6,759,197      branch-misses             #    1.19% of all branches          (59.05%)
+    57.046994185        965,589,728      L1-dcache-loads           #  202.037 M/sec                    (32.91%)
+    57.046994185        158,720,615      L1-dcache-load-misses     #   18.47% of all L1-dcache hits    (27.10%)
+    57.046994185         73,480,959      LLC-loads                 #   15.375 M/sec                    (26.46%)
+    57.046994185    <not supported>      LLC-load-misses                                             
+    58.047748536           5,531.14 msec task-clock                #    5.531 CPUs utilized          
+    58.047748536             37,006      context-switches          #    0.008 M/sec                  
+    58.047748536              3,850      cpu-migrations            #    0.803 K/sec                  
+    58.047748536                  0      page-faults               #    0.000 K/sec                  
+    58.047748536     14,100,133,125      cycles                    #    2.942 GHz                      (37.78%)
+    58.047748536     11,644,319,138      stalled-cycles-frontend   #   96.18% frontend cycles idle     (46.75%)
+    58.047748536      5,712,370,205      instructions              #    0.47  insn per cycle         
+    58.047748536                                                   #    1.74  stalled cycles per insn  (59.26%)
+    58.047748536        620,120,112      branches                  #  129.401 M/sec                    (59.20%)
+    58.047748536          6,441,670      branch-misses             #    1.13% of all branches          (59.01%)
+    58.047748536        978,831,109      L1-dcache-loads           #  204.254 M/sec                    (32.89%)
+    58.047748536        161,307,555      L1-dcache-load-misses     #   18.73% of all L1-dcache hits    (27.10%)
+    58.047748536         74,869,597      LLC-loads                 #   15.623 M/sec                    (26.47%)
+    58.047748536    <not supported>      LLC-load-misses                                             
+    59.050808222           5,560.36 msec task-clock                #    5.560 CPUs utilized          
+    59.050808222             37,288      context-switches          #    0.008 M/sec                  
+    59.050808222              3,823      cpu-migrations            #    0.796 K/sec                  
+    59.050808222                  0      page-faults               #    0.000 K/sec                  
+    59.050808222     14,373,623,840      cycles                    #    2.991 GHz                      (37.77%)
+    59.050808222     11,890,037,293      stalled-cycles-frontend   #   97.89% frontend cycles idle     (46.73%)
+    59.050808222      5,882,524,778      instructions              #    0.48  insn per cycle         
+    59.050808222                                                   #    1.70  stalled cycles per insn  (59.25%)
+    59.050808222        702,784,117      branches                  #  146.254 M/sec                    (59.19%)
+    59.050808222          7,030,541      branch-misses             #    1.23% of all branches          (59.01%)
+    59.050808222      1,010,801,208      L1-dcache-loads           #  210.354 M/sec                    (32.93%)
+    59.050808222        164,176,544      L1-dcache-load-misses     #   19.00% of all L1-dcache hits    (27.10%)
+    59.050808222         77,978,405      LLC-loads                 #   16.228 M/sec                    (26.47%)
+    59.050808222    <not supported>      LLC-load-misses                                             
+    60.051866065           5,194.68 msec task-clock                #    5.195 CPUs utilized          
+    60.051866065             32,352      context-switches          #    0.007 M/sec                  
+    60.051866065              4,183      cpu-migrations            #    0.869 K/sec                  
+    60.051866065                  0      page-faults               #    0.000 K/sec                  
+    60.051866065     14,157,165,200      cycles                    #    2.942 GHz                      (37.76%)
+    60.051866065     11,675,710,859      stalled-cycles-frontend   #   95.87% frontend cycles idle     (46.73%)
+    60.051866065      5,644,120,351      instructions              #    0.46  insn per cycle         
+    60.051866065                                                   #    1.78  stalled cycles per insn  (59.25%)
+    60.051866065        681,908,962      branches                  #  141.718 M/sec                    (59.20%)
+    60.051866065          6,492,239      branch-misses             #    1.14% of all branches          (59.02%)
+    60.051866065        956,998,591      L1-dcache-loads           #  198.888 M/sec                    (32.92%)
+    60.051866065        164,628,841      L1-dcache-load-misses     #   19.02% of all L1-dcache hits    (27.11%)
+    60.051866065         79,092,797      LLC-loads                 #   16.437 M/sec                    (26.46%)
+    60.051866065    <not supported>      LLC-load-misses                                             
+    61.052797419           5,090.20 msec task-clock                #    5.090 CPUs utilized          
+    61.052797419             34,643      context-switches          #    0.007 M/sec                  
+    61.052797419              4,401      cpu-migrations            #    0.914 K/sec                  
+    61.052797419                  0      page-faults               #    0.000 K/sec                  
+    61.052797419     13,885,003,109      cycles                    #    2.883 GHz                      (37.77%)
+    61.052797419     11,536,704,998      stalled-cycles-frontend   #   94.51% frontend cycles idle     (46.74%)
+    61.052797419      5,214,891,455      instructions              #    0.43  insn per cycle         
+    61.052797419                                                   #    1.93  stalled cycles per insn  (59.27%)
+    61.052797419        523,295,594      branches                  #  108.651 M/sec                    (59.21%)
+    61.052797419          5,586,403      branch-misses             #    0.98% of all branches          (59.02%)
+    61.052797419        893,323,103      L1-dcache-loads           #  185.479 M/sec                    (32.91%)
+    61.052797419        164,091,534      L1-dcache-load-misses     #   18.95% of all L1-dcache hits    (27.11%)
+    61.052797419         78,218,813      LLC-loads                 #   16.240 M/sec                    (26.47%)
+    61.052797419    <not supported>      LLC-load-misses                                             
+    62.053335424           4,962.11 msec task-clock                #    4.962 CPUs utilized          
+    62.053335424             36,775      context-switches          #    0.008 M/sec                  
+    62.053335424              4,504      cpu-migrations            #    0.935 K/sec                  
+    62.053335424                  0      page-faults               #    0.000 K/sec                  
+    62.053335424     13,531,338,424      cycles                    #    2.808 GHz                      (37.78%)
+    62.053335424     11,044,413,237      stalled-cycles-frontend   #   90.32% frontend cycles idle     (46.76%)
+    62.053335424      5,728,470,796      instructions              #    0.47  insn per cycle         
+    62.053335424                                                   #    1.76  stalled cycles per insn  (59.29%)
+    62.053335424        660,081,340      branches                  #  136.985 M/sec                    (59.23%)
+    62.053335424          7,084,086      branch-misses             #    1.24% of all branches          (59.04%)
+    62.053335424        990,984,280      L1-dcache-loads           #  205.656 M/sec                    (32.91%)
+    62.053335424        155,211,005      L1-dcache-load-misses     #   17.88% of all L1-dcache hits    (27.12%)
+    62.053335424         72,184,056      LLC-loads                 #   14.980 M/sec                    (26.47%)
+    62.053335424    <not supported>      LLC-load-misses                                             
+    63.053961629           5,508.21 msec task-clock                #    5.508 CPUs utilized          
+    63.053961629             38,200      context-switches          #    0.008 M/sec                  
+    63.053961629              4,425      cpu-migrations            #    0.916 K/sec                  
+    63.053961629                  0      page-faults               #    0.000 K/sec                  
+    63.053961629     15,050,318,243      cycles                    #    3.116 GHz                      (37.78%)
+    63.053961629     12,442,300,758      stalled-cycles-frontend   #  101.38% frontend cycles idle     (46.76%)
+    63.053961629      5,957,518,397      instructions              #    0.49  insn per cycle         
+    63.053961629                                                   #    1.70  stalled cycles per insn  (59.29%)
+    63.053961629        617,126,318      branches                  #  127.780 M/sec                    (59.23%)
+    63.053961629          6,759,923      branch-misses             #    1.18% of all branches          (59.05%)
+    63.053961629      1,059,063,134      L1-dcache-loads           #  219.286 M/sec                    (32.90%)
+    63.053961629        170,329,966      L1-dcache-load-misses     #   19.56% of all L1-dcache hits    (27.09%)
+    63.053961629         81,913,516      LLC-loads                 #   16.961 M/sec                    (26.46%)
+    63.053961629    <not supported>      LLC-load-misses                                             
+    64.055135600           5,427.76 msec task-clock                #    5.428 CPUs utilized          
+    64.055135600             35,837      context-switches          #    0.007 M/sec                  
+    64.055135600              3,764      cpu-migrations            #    0.778 K/sec                  
+    64.055135600                  0      page-faults               #    0.000 K/sec                  
+    64.055135600     13,535,149,568      cycles                    #    2.797 GHz                      (37.79%)
+    64.055135600     11,095,637,887      stalled-cycles-frontend   #   90.26% frontend cycles idle     (46.76%)
+    64.055135600      5,662,415,538      instructions              #    0.46  insn per cycle         
+    64.055135600                                                   #    1.79  stalled cycles per insn  (59.30%)
+    64.055135600        646,842,715      branches                  #  133.674 M/sec                    (59.23%)
+    64.055135600          6,908,110      branch-misses             #    1.20% of all branches          (59.03%)
+    64.055135600        932,387,413      L1-dcache-loads           #  192.684 M/sec                    (32.89%)
+    64.055135600        154,251,811      L1-dcache-load-misses     #   17.69% of all L1-dcache hits    (27.10%)
+    64.055135600         71,048,637      LLC-loads                 #   14.683 M/sec                    (26.45%)
+    64.055135600    <not supported>      LLC-load-misses                                             
+    65.056082173           5,520.63 msec task-clock                #    5.521 CPUs utilized          
+    65.056082173             36,873      context-switches          #    0.008 M/sec                  
+    65.056082173              3,796      cpu-migrations            #    0.783 K/sec                  
+    65.056082173                  0      page-faults               #    0.000 K/sec                  
+    65.056082173     13,905,989,927      cycles                    #    2.868 GHz                      (37.79%)
+    65.056082173     11,474,972,769      stalled-cycles-frontend   #   93.16% frontend cycles idle     (46.75%)
+    65.056082173      5,830,912,151      instructions              #    0.47  insn per cycle         
+    65.056082173                                                   #    1.74  stalled cycles per insn  (59.30%)
+    65.056082173        659,419,243      branches                  #  135.979 M/sec                    (59.22%)
+    65.056082173          6,915,875      branch-misses             #    1.20% of all branches          (59.04%)
+    65.056082173        948,647,371      L1-dcache-loads           #  195.620 M/sec                    (32.87%)
+    65.056082173        159,520,121      L1-dcache-load-misses     #   18.27% of all L1-dcache hits    (27.10%)
+    65.056082173         74,708,615      LLC-loads                 #   15.406 M/sec                    (26.45%)
+    65.056082173    <not supported>      LLC-load-misses                                             
+    66.057035454           5,630.19 msec task-clock                #    5.630 CPUs utilized          
+    66.057035454             33,256      context-switches          #    0.007 M/sec                  
+    66.057035454              3,666      cpu-migrations            #    0.754 K/sec                  
+    66.057035454                  0      page-faults               #    0.000 K/sec                  
+    66.057035454     14,341,027,661      cycles                    #    2.950 GHz                      (37.78%)
+    66.057035454     12,028,084,852      stalled-cycles-frontend   #   97.40% frontend cycles idle     (46.75%)
+    66.057035454      5,276,690,030      instructions              #    0.43  insn per cycle         
+    66.057035454                                                   #    1.93  stalled cycles per insn  (59.29%)
+    66.057035454        586,206,326      branches                  #  120.587 M/sec                    (59.24%)
+    66.057035454          5,955,252      branch-misses             #    1.03% of all branches          (59.03%)
+    66.057035454        912,468,324      L1-dcache-loads           #  187.702 M/sec                    (32.88%)
+    66.057035454        158,563,115      L1-dcache-load-misses     #   18.15% of all L1-dcache hits    (27.12%)
+    66.057035454         78,075,399      LLC-loads                 #   16.061 M/sec                    (26.44%)
+    66.057035454    <not supported>      LLC-load-misses                                             
+    67.058229544           5,527.66 msec task-clock                #    5.528 CPUs utilized          
+    67.058229544             31,805      context-switches          #    0.007 M/sec                  
+    67.058229544              3,436      cpu-migrations            #    0.705 K/sec                  
+    67.058229544                  0      page-faults               #    0.000 K/sec                  
+    67.058229544     13,495,125,356      cycles                    #    2.770 GHz                      (37.78%)
+    67.058229544     11,403,852,903      stalled-cycles-frontend   #   92.22% frontend cycles idle     (46.77%)
+    67.058229544      4,658,851,889      instructions              #    0.38  insn per cycle         
+    67.058229544                                                   #    2.19  stalled cycles per insn  (59.32%)
+    67.058229544        437,242,173      branches                  #   89.761 M/sec                    (59.25%)
+    67.058229544          5,305,964      branch-misses             #    0.92% of all branches          (59.03%)
+    67.058229544        846,480,853      L1-dcache-loads           #  173.772 M/sec                    (32.85%)
+    67.058229544        155,642,427      L1-dcache-load-misses     #   17.82% of all L1-dcache hits    (27.12%)
+    67.058229544         74,118,722      LLC-loads                 #   15.216 M/sec                    (26.45%)
+    67.058229544    <not supported>      LLC-load-misses                                             
+    68.058867669           5,349.11 msec task-clock                #    5.349 CPUs utilized          
+    68.058867669             35,154      context-switches          #    0.007 M/sec                  
+    68.058867669              3,610      cpu-migrations            #    0.740 K/sec                  
+    68.058867669                  0      page-faults               #    0.000 K/sec                  
+    68.058867669     12,821,145,501      cycles                    #    2.628 GHz                      (37.78%)
+    68.058867669     10,528,346,840      stalled-cycles-frontend   #   85.10% frontend cycles idle     (46.76%)
+    68.058867669      5,448,110,217      instructions              #    0.44  insn per cycle         
+    68.058867669                                                   #    1.87  stalled cycles per insn  (59.31%)
+    68.058867669        636,944,049      branches                  #  130.569 M/sec                    (59.25%)
+    68.058867669          6,701,161      branch-misses             #    1.17% of all branches          (59.02%)
+    68.058867669        919,020,577      L1-dcache-loads           #  188.392 M/sec                    (32.83%)
+    68.058867669        144,342,405      L1-dcache-load-misses     #   16.52% of all L1-dcache hits    (27.11%)
+    68.058867669         69,414,140      LLC-loads                 #   14.229 M/sec                    (26.44%)
+    68.058867669    <not supported>      LLC-load-misses                                             
+    69.060004643           5,531.87 msec task-clock                #    5.532 CPUs utilized          
+    69.060004643             36,673      context-switches          #    0.008 M/sec                  
+    69.060004643              3,872      cpu-migrations            #    0.792 K/sec                  
+    69.060004643                  0      page-faults               #    0.000 K/sec                  
+    69.060004643     14,200,694,766      cycles                    #    2.905 GHz                      (37.77%)
+    69.060004643     11,658,809,049      stalled-cycles-frontend   #   94.03% frontend cycles idle     (46.75%)
+    69.060004643      5,728,267,641      instructions              #    0.46  insn per cycle         
+    69.060004643                                                   #    1.78  stalled cycles per insn  (59.31%)
+    69.060004643        631,952,200      branches                  #  129.294 M/sec                    (59.26%)
+    69.060004643          6,828,388      branch-misses             #    1.19% of all branches          (59.03%)
+    69.060004643        963,876,844      L1-dcache-loads           #  197.204 M/sec                    (32.82%)
+    69.060004643        158,388,702      L1-dcache-load-misses     #   18.10% of all L1-dcache hits    (27.10%)
+    69.060004643         75,459,213      LLC-loads                 #   15.439 M/sec                    (26.44%)
+    69.060004643    <not supported>      LLC-load-misses                                             
+    70.060835731           5,684.32 msec task-clock                #    5.684 CPUs utilized          
+    70.060835731             30,944      context-switches          #    0.006 M/sec                  
+    70.060835731              3,403      cpu-migrations            #    0.695 K/sec                  
+    70.060835731                  0      page-faults               #    0.000 K/sec                  
+    70.060835731     14,502,129,553      cycles                    #    2.960 GHz                      (37.75%)
+    70.060835731     12,139,268,740      stalled-cycles-frontend   #   97.67% frontend cycles idle     (46.75%)
+    70.060835731      5,213,540,035      instructions              #    0.42  insn per cycle         
+    70.060835731                                                   #    1.96  stalled cycles per insn  (59.31%)
+    70.060835731        570,174,328      branches                  #  116.384 M/sec                    (59.24%)
+    70.060835731          5,522,528      branch-misses             #    0.96% of all branches          (59.03%)
+    70.060835731        920,372,205      L1-dcache-loads           #  187.866 M/sec                    (32.82%)
+    70.060835731        165,327,361      L1-dcache-load-misses     #   18.87% of all L1-dcache hits    (27.10%)
+    70.060835731         80,892,373      LLC-loads                 #   16.512 M/sec                    (26.42%)
+    70.060835731    <not supported>      LLC-load-misses                                             
+    71.061627915           5,541.99 msec task-clock                #    5.542 CPUs utilized          
+    71.061627915             34,918      context-switches          #    0.007 M/sec                  
+    71.061627915              3,611      cpu-migrations            #    0.736 K/sec                  
+    71.061627915                  0      page-faults               #    0.000 K/sec                  
+    71.061627915     13,913,137,175      cycles                    #    2.835 GHz                      (37.73%)
+    71.061627915     11,666,633,424      stalled-cycles-frontend   #   93.71% frontend cycles idle     (46.75%)
+    71.061627915      5,024,109,657      instructions              #    0.40  insn per cycle         
+    71.061627915                                                   #    2.04  stalled cycles per insn  (59.30%)
+    71.061627915        462,925,751      branches                  #   94.318 M/sec                    (59.24%)
+    71.061627915          5,940,402      branch-misses             #    1.04% of all branches          (59.04%)
+    71.061627915        870,397,047      L1-dcache-loads           #  177.337 M/sec                    (32.81%)
+    71.061627915        160,832,669      L1-dcache-load-misses     #   18.36% of all L1-dcache hits    (27.12%)
+    71.061627915         74,892,873      LLC-loads                 #   15.259 M/sec                    (26.42%)
+    71.061627915    <not supported>      LLC-load-misses                                             
+    72.062258473           5,538.08 msec task-clock                #    5.538 CPUs utilized          
+    72.062258473             36,989      context-switches          #    0.008 M/sec                  
+    72.062258473              3,892      cpu-migrations            #    0.792 K/sec                  
+    72.062258473                  0      page-faults               #    0.000 K/sec                  
+    72.062258473     14,198,263,422      cycles                    #    2.888 GHz                      (37.74%)
+    72.062258473     11,716,247,807      stalled-cycles-frontend   #   93.92% frontend cycles idle     (46.76%)
+    72.062258473      5,903,492,093      instructions              #    0.47  insn per cycle         
+    72.062258473                                                   #    1.74  stalled cycles per insn  (59.30%)
+    72.062258473        660,939,414      branches                  #  134.422 M/sec                    (59.24%)
+    72.062258473          6,821,941      branch-misses             #    1.19% of all branches          (59.04%)
+    72.062258473        961,544,296      L1-dcache-loads           #  195.559 M/sec                    (32.82%)
+    72.062258473        163,780,524      L1-dcache-load-misses     #   18.67% of all L1-dcache hits    (27.11%)
+    72.062258473         76,344,088      LLC-loads                 #   15.527 M/sec                    (26.41%)
+    72.062258473    <not supported>      LLC-load-misses                                             
+    73.062969657           5,362.95 msec task-clock                #    5.363 CPUs utilized          
+    73.062969657             35,212      context-switches          #    0.007 M/sec                  
+    73.062969657              3,625      cpu-migrations            #    0.736 K/sec                  
+    73.062969657                  0      page-faults               #    0.000 K/sec                  
+    73.062969657     12,963,041,673      cycles                    #    2.633 GHz                      (37.74%)
+    73.062969657     10,626,173,683      stalled-cycles-frontend   #   85.14% frontend cycles idle     (46.76%)
+    73.062969657      5,423,288,304      instructions              #    0.43  insn per cycle         
+    73.062969657                                                   #    1.90  stalled cycles per insn  (59.31%)
+    73.062969657        625,512,018      branches                  #  127.059 M/sec                    (59.24%)
+    73.062969657          6,333,634      branch-misses             #    1.10% of all branches          (59.06%)
+    73.062969657        904,572,526      L1-dcache-loads           #  183.744 M/sec                    (32.81%)
+    73.062969657        147,388,372      L1-dcache-load-misses     #   16.80% of all L1-dcache hits    (27.11%)
+    73.062969657         72,265,353      LLC-loads                 #   14.679 M/sec                    (26.39%)
+    73.062969657    <not supported>      LLC-load-misses                                             
+    74.063994391           5,623.63 msec task-clock                #    5.624 CPUs utilized          
+    74.063994391             31,417      context-switches          #    0.006 M/sec                  
+    74.063994391              3,471      cpu-migrations            #    0.704 K/sec                  
+    74.063994391                  0      page-faults               #    0.000 K/sec                  
+    74.063994391     14,199,050,757      cycles                    #    2.879 GHz                      (37.76%)
+    74.063994391     11,831,147,573      stalled-cycles-frontend   #   94.62% frontend cycles idle     (46.77%)
+    74.063994391      5,370,240,925      instructions              #    0.43  insn per cycle         
+    74.063994391                                                   #    1.92  stalled cycles per insn  (59.31%)
+    74.063994391        647,700,507      branches                  #  131.314 M/sec                    (59.25%)
+    74.063994391          6,570,831      branch-misses             #    1.14% of all branches          (59.05%)
+    74.063994391        914,882,517      L1-dcache-loads           #  185.482 M/sec                    (32.80%)
+    74.063994391        159,542,807      L1-dcache-load-misses     #   18.17% of all L1-dcache hits    (27.10%)
+    74.063994391         75,848,249      LLC-loads                 #   15.377 M/sec                    (26.40%)
+    74.063994391    <not supported>      LLC-load-misses                                             
+    75.064973389           5,459.83 msec task-clock                #    5.460 CPUs utilized          
+    75.064973389             32,429      context-switches          #    0.007 M/sec                  
+    75.064973389              3,494      cpu-migrations            #    0.707 K/sec                  
+    75.064973389                  0      page-faults               #    0.000 K/sec                  
+    75.064973389     13,195,732,861      cycles                    #    2.671 GHz                      (37.76%)
+    75.064973389     11,058,016,997      stalled-cycles-frontend   #   88.37% frontend cycles idle     (46.78%)
+    75.064973389      4,714,063,685      instructions              #    0.38  insn per cycle         
+    75.064973389                                                   #    2.19  stalled cycles per insn  (59.31%)
+    75.064973389        460,432,545      branches                  #   93.214 M/sec                    (59.24%)
+    75.064973389          5,565,816      branch-misses             #    0.97% of all branches          (59.04%)
+    75.064973389        835,472,483      L1-dcache-loads           #  169.141 M/sec                    (32.80%)
+    75.064973389        150,265,308      L1-dcache-load-misses     #   17.13% of all L1-dcache hits    (27.10%)
+    75.064973389         72,361,033      LLC-loads                 #   14.649 M/sec                    (26.40%)
+    75.064973389    <not supported>      LLC-load-misses                                             
+#           time             counts unit events
+    76.065724303           5,477.57 msec task-clock                #    5.478 CPUs utilized          
+    76.065724303             36,339      context-switches          #    0.007 M/sec                  
+    76.065724303              3,683      cpu-migrations            #    0.745 K/sec                  
+    76.065724303                  0      page-faults               #    0.000 K/sec                  
+    76.065724303     13,770,048,366      cycles                    #    2.784 GHz                      (37.76%)
+    76.065724303     11,321,670,454      stalled-cycles-frontend   #   90.36% frontend cycles idle     (46.78%)
+    76.065724303      5,778,649,715      instructions              #    0.46  insn per cycle         
+    76.065724303                                                   #    1.79  stalled cycles per insn  (59.31%)
+    76.065724303        659,620,380      branches                  #  133.349 M/sec                    (59.25%)
+    76.065724303          6,327,109      branch-misses             #    1.10% of all branches          (59.05%)
+    76.065724303        931,998,353      L1-dcache-loads           #  188.413 M/sec                    (32.79%)
+    76.065724303        156,196,440      L1-dcache-load-misses     #   17.79% of all L1-dcache hits    (27.10%)
+    76.065724303         74,821,449      LLC-loads                 #   15.126 M/sec                    (26.40%)
+    76.065724303    <not supported>      LLC-load-misses                                             
+    77.066359241           5,626.09 msec task-clock                #    5.626 CPUs utilized          
+    77.066359241             37,873      context-switches          #    0.008 M/sec                  
+    77.066359241              3,907      cpu-migrations            #    0.788 K/sec                  
+    77.066359241                  0      page-faults               #    0.000 K/sec                  
+    77.066359241     14,721,354,687      cycles                    #    2.971 GHz                      (37.76%)
+    77.066359241     12,157,174,710      stalled-cycles-frontend   #   96.81% frontend cycles idle     (46.79%)
+    77.066359241      5,878,054,153      instructions              #    0.47  insn per cycle         
+    77.066359241                                                   #    1.76  stalled cycles per insn  (59.31%)
+    77.066359241        625,720,419      branches                  #  126.270 M/sec                    (59.26%)
+    77.066359241          6,212,379      branch-misses             #    1.08% of all branches          (59.04%)
+    77.066359241        999,394,192      L1-dcache-loads           #  201.677 M/sec                    (32.78%)
+    77.066359241        168,922,326      L1-dcache-load-misses     #   19.20% of all L1-dcache hits    (27.10%)
+    77.066359241         80,142,554      LLC-loads                 #   16.173 M/sec                    (26.40%)
+    77.066359241    <not supported>      LLC-load-misses                                             
+    78.067036799           5,492.18 msec task-clock                #    5.492 CPUs utilized          
+    78.067036799             33,934      context-switches          #    0.007 M/sec                  
+    78.067036799              3,623      cpu-migrations            #    0.730 K/sec                  
+    78.067036799                  0      page-faults               #    0.000 K/sec                  
+    78.067036799     13,633,558,373      cycles                    #    2.747 GHz                      (37.76%)
+    78.067036799     11,287,763,273      stalled-cycles-frontend   #   89.78% frontend cycles idle     (46.80%)
+    78.067036799      5,396,651,818      instructions              #    0.43  insn per cycle         
+    78.067036799                                                   #    1.92  stalled cycles per insn  (59.32%)
+    78.067036799        624,570,294      branches                  #  125.863 M/sec                    (59.27%)
+    78.067036799          6,259,161      branch-misses             #    1.08% of all branches          (59.05%)
+    78.067036799        925,476,839      L1-dcache-loads           #  186.502 M/sec                    (32.78%)
+    78.067036799        153,333,351      L1-dcache-load-misses     #   17.42% of all L1-dcache hits    (27.09%)
+    78.067036799         73,292,472      LLC-loads                 #   14.770 M/sec                    (26.40%)
+    78.067036799    <not supported>      LLC-load-misses                                             
+    79.068174933           5,613.92 msec task-clock                #    5.614 CPUs utilized          
+    79.068174933             30,426      context-switches          #    0.006 M/sec                  
+    79.068174933              3,263      cpu-migrations            #    0.656 K/sec                  
+    79.068174933                  0      page-faults               #    0.000 K/sec                  
+    79.068174933     13,748,945,842      cycles                    #    2.766 GHz                      (37.77%)
+    79.068174933     11,658,028,445      stalled-cycles-frontend   #   92.62% frontend cycles idle     (46.79%)
+    79.068174933      4,601,964,106      instructions              #    0.37  insn per cycle         
+    79.068174933                                                   #    2.26  stalled cycles per insn  (59.30%)
+    79.068174933        449,915,061      branches                  #   90.516 M/sec                    (59.23%)
+    79.068174933          5,262,716      branch-misses             #    0.91% of all branches          (59.02%)
+    79.068174933        818,838,088      L1-dcache-loads           #  164.738 M/sec                    (32.80%)
+    79.068174933        159,908,174      L1-dcache-load-misses     #   18.18% of all L1-dcache hits    (27.11%)
+    79.068174933         76,052,749      LLC-loads                 #   15.301 M/sec                    (26.41%)
+    79.068174933    <not supported>      LLC-load-misses                                             
+    80.068983671           5,480.33 msec task-clock                #    5.480 CPUs utilized          
+    80.068983671             36,179      context-switches          #    0.007 M/sec                  
+    80.068983671              3,736      cpu-migrations            #    0.751 K/sec                  
+    80.068983671                  0      page-faults               #    0.000 K/sec                  
+    80.068983671     13,797,201,883      cycles                    #    2.772 GHz                      (37.78%)
+    80.068983671     11,475,578,068      stalled-cycles-frontend   #   91.06% frontend cycles idle     (46.79%)
+    80.068983671      5,353,512,151      instructions              #    0.42  insn per cycle         
+    80.068983671                                                   #    1.94  stalled cycles per insn  (59.31%)
+    80.068983671        578,559,661      branches                  #  116.249 M/sec                    (59.23%)
+    80.068983671          6,484,359      branch-misses             #    1.13% of all branches          (59.02%)
+    80.068983671        982,442,943      L1-dcache-loads           #  197.400 M/sec                    (32.79%)
+    80.068983671        155,657,024      L1-dcache-load-misses     #   17.67% of all L1-dcache hits    (27.10%)
+    80.068983671         72,566,008      LLC-loads                 #   14.581 M/sec                    (26.42%)
+    80.068983671    <not supported>      LLC-load-misses                                             
+    81.069718253           5,390.98 msec task-clock                #    5.391 CPUs utilized          
+    81.069718253             35,508      context-switches          #    0.007 M/sec                  
+    81.069718253              3,595      cpu-migrations            #    0.722 K/sec                  
+    81.069718253                  1      page-faults               #    0.000 K/sec                  
+    81.069718253     13,121,018,580      cycles                    #    2.634 GHz                      (37.78%)
+    81.069718253     10,756,345,466      stalled-cycles-frontend   #   85.31% frontend cycles idle     (46.79%)
+    81.069718253      5,379,403,186      instructions              #    0.43  insn per cycle         
+    81.069718253                                                   #    1.93  stalled cycles per insn  (59.30%)
+    81.069718253        574,223,835      branches                  #  115.259 M/sec                    (59.23%)
+    81.069718253          6,230,228      branch-misses             #    1.08% of all branches          (59.01%)
+    81.069718253        948,634,751      L1-dcache-loads           #  190.412 M/sec                    (32.78%)
+    81.069718253        148,091,989      L1-dcache-load-misses     #   16.80% of all L1-dcache hits    (27.10%)
+    81.069718253         69,796,316      LLC-loads                 #   14.010 M/sec                    (26.42%)
+    81.069718253    <not supported>      LLC-load-misses                                             
+    82.070496127           5,618.68 msec task-clock                #    5.619 CPUs utilized          
+    82.070496127             31,288      context-switches          #    0.006 M/sec                  
+    82.070496127              3,351      cpu-migrations            #    0.672 K/sec                  
+    82.070496127                  0      page-faults               #    0.000 K/sec                  
+    82.070496127     14,123,831,203      cycles                    #    2.831 GHz                      (37.78%)
+    82.070496127     11,729,977,178      stalled-cycles-frontend   #   92.90% frontend cycles idle     (46.79%)
+    82.070496127      5,308,112,405      instructions              #    0.42  insn per cycle         
+    82.070496127                                                   #    1.96  stalled cycles per insn  (59.30%)
+    82.070496127        636,858,873      branches                  #  127.632 M/sec                    (59.22%)
+    82.070496127          6,372,910      branch-misses             #    1.11% of all branches          (59.02%)
+    82.070496127        889,194,549      L1-dcache-loads           #  178.203 M/sec                    (32.78%)
+    82.070496127        159,906,730      L1-dcache-load-misses     #   18.14% of all L1-dcache hits    (27.09%)
+    82.070496127         76,472,718      LLC-loads                 #   15.326 M/sec                    (26.41%)
+    82.070496127    <not supported>      LLC-load-misses                                             
+    83.071289171           5,460.30 msec task-clock                #    5.460 CPUs utilized          
+    83.071289171             32,756      context-switches          #    0.007 M/sec                  
+    83.071289171              3,526      cpu-migrations            #    0.706 K/sec                  
+    83.071289171                  0      page-faults               #    0.000 K/sec                  
+    83.071289171     13,309,987,936      cycles                    #    2.664 GHz                      (37.77%)
+    83.071289171     11,140,624,371      stalled-cycles-frontend   #   88.17% frontend cycles idle     (46.78%)
+    83.071289171      4,738,928,642      instructions              #    0.38  insn per cycle         
+    83.071289171                                                   #    2.20  stalled cycles per insn  (59.29%)
+    83.071289171        476,129,881      branches                  #   95.313 M/sec                    (59.22%)
+    83.071289171          5,601,625      branch-misses             #    0.97% of all branches          (59.01%)
+    83.071289171        829,167,709      L1-dcache-loads           #  165.984 M/sec                    (32.78%)
+    83.071289171        152,959,441      L1-dcache-load-misses     #   17.36% of all L1-dcache hits    (27.09%)
+    83.071289171         73,265,385      LLC-loads                 #   14.666 M/sec                    (26.41%)
+    83.071289171    <not supported>      LLC-load-misses                                             
+    84.072360249           5,508.64 msec task-clock                #    5.509 CPUs utilized          
+    84.072360249             36,465      context-switches          #    0.007 M/sec                  
+    84.072360249              3,742      cpu-migrations            #    0.748 K/sec                  
+    84.072360249                  0      page-faults               #    0.000 K/sec                  
+    84.072360249     13,916,794,501      cycles                    #    2.782 GHz                      (37.78%)
+    84.072360249     11,516,604,305      stalled-cycles-frontend   #   91.04% frontend cycles idle     (46.79%)
+    84.072360249      5,581,620,978      instructions              #    0.44  insn per cycle         
+    84.072360249                                                   #    1.87  stalled cycles per insn  (59.30%)
+    84.072360249        617,163,109      branches                  #  123.394 M/sec                    (59.23%)
+    84.072360249          6,510,671      branch-misses             #    1.13% of all branches          (59.01%)
+    84.072360249        961,567,701      L1-dcache-loads           #  192.253 M/sec                    (32.79%)
+    84.072360249        158,026,774      L1-dcache-load-misses     #   17.92% of all L1-dcache hits    (27.09%)
+    84.072360249         75,615,521      LLC-loads                 #   15.118 M/sec                    (26.41%)
+    84.072360249    <not supported>      LLC-load-misses                                             
+    85.073097402           5,383.45 msec task-clock                #    5.383 CPUs utilized          
+    85.073097402             35,477      context-switches          #    0.007 M/sec                  
+    85.073097402              3,827      cpu-migrations            #    0.764 K/sec                  
+    85.073097402                  0      page-faults               #    0.000 K/sec                  
+    85.073097402     13,125,383,177      cycles                    #    2.622 GHz                      (37.77%)
+    85.073097402     10,784,387,185      stalled-cycles-frontend   #   85.21% frontend cycles idle     (46.78%)
+    85.073097402      5,416,674,692      instructions              #    0.43  insn per cycle         
+    85.073097402                                                   #    1.93  stalled cycles per insn  (59.29%)
+    85.073097402        581,113,779      branches                  #  116.082 M/sec                    (59.24%)
+    85.073097402          6,341,637      branch-misses             #    1.10% of all branches          (59.02%)
+    85.073097402        947,638,034      L1-dcache-loads           #  189.298 M/sec                    (32.79%)
+    85.073097402        149,676,150      L1-dcache-load-misses     #   16.96% of all L1-dcache hits    (27.08%)
+    85.073097402         70,220,405      LLC-loads                 #   14.027 M/sec                    (26.39%)
+    85.073097402    <not supported>      LLC-load-misses                                             
+    86.073736413           5,651.38 msec task-clock                #    5.651 CPUs utilized          
+    86.073736413             28,362      context-switches          #    0.006 M/sec                  
+    86.073736413              2,999      cpu-migrations            #    0.598 K/sec                  
+    86.073736413                  0      page-faults               #    0.000 K/sec                  
+    86.073736413     13,894,712,155      cycles                    #    2.771 GHz                      (37.80%)
+    86.073736413     11,740,494,586      stalled-cycles-frontend   #   92.66% frontend cycles idle     (46.79%)
+    86.073736413      4,471,999,355      instructions              #    0.35  insn per cycle         
+    86.073736413                                                   #    2.34  stalled cycles per insn  (59.30%)
+    86.073736413        423,096,603      branches                  #   84.390 M/sec                    (59.23%)
+    86.073736413          4,699,114      branch-misses             #    0.82% of all branches          (59.01%)
+    86.073736413        793,109,987      L1-dcache-loads           #  158.193 M/sec                    (32.77%)
+    86.073736413        160,196,718      L1-dcache-load-misses     #   18.17% of all L1-dcache hits    (27.07%)
+    86.073736413         77,555,961      LLC-loads                 #   15.469 M/sec                    (26.41%)
+    86.073736413    <not supported>      LLC-load-misses                                             
+    87.074396771           5,360.87 msec task-clock                #    5.361 CPUs utilized          
+    87.074396771             35,369      context-switches          #    0.007 M/sec                  
+    87.074396771              3,678      cpu-migrations            #    0.733 K/sec                  
+    87.074396771                  0      page-faults               #    0.000 K/sec                  
+    87.074396771     12,983,198,101      cycles                    #    2.588 GHz                      (37.79%)
+    87.074396771     10,551,908,515      stalled-cycles-frontend   #   83.26% frontend cycles idle     (46.78%)
+    87.074396771      5,753,894,763      instructions              #    0.45  insn per cycle         
+    87.074396771                                                   #    1.82  stalled cycles per insn  (59.29%)
+    87.074396771        668,944,288      branches                  #  133.321 M/sec                    (59.22%)
+    87.074396771          6,468,305      branch-misses             #    1.12% of all branches          (59.01%)
+    87.074396771        908,505,120      L1-dcache-loads           #  181.065 M/sec                    (32.80%)
+    87.074396771        149,266,738      L1-dcache-load-misses     #   16.92% of all L1-dcache hits    (27.09%)
+    87.074396771         69,630,056      LLC-loads                 #   13.877 M/sec                    (26.41%)
+    87.074396771    <not supported>      LLC-load-misses                                             
+    88.075275106           5,337.06 msec task-clock                #    5.337 CPUs utilized          
+    88.075275106             35,102      context-switches          #    0.007 M/sec                  
+    88.075275106              3,643      cpu-migrations            #    0.726 K/sec                  
+    88.075275106                  0      page-faults               #    0.000 K/sec                  
+    88.075275106     12,905,048,823      cycles                    #    2.570 GHz                      (37.78%)
+    88.075275106     10,383,812,917      stalled-cycles-frontend   #   81.91% frontend cycles idle     (46.78%)
+    88.075275106      5,584,420,386      instructions              #    0.44  insn per cycle         
+    88.075275106                                                   #    1.87  stalled cycles per insn  (59.29%)
+    88.075275106        569,365,352      branches                  #  113.393 M/sec                    (59.22%)
+    88.075275106          6,132,141      branch-misses             #    1.07% of all branches          (59.02%)
+    88.075275106        878,776,781      L1-dcache-loads           #  175.014 M/sec                    (32.80%)
+    88.075275106        144,756,099      L1-dcache-load-misses     #   16.41% of all L1-dcache hits    (27.08%)
+    88.075275106         67,329,708      LLC-loads                 #   13.409 M/sec                    (26.40%)
+    88.075275106    <not supported>      LLC-load-misses                                             
+    89.076252066           5,720.35 msec task-clock                #    5.720 CPUs utilized          
+    89.076252066             28,855      context-switches          #    0.006 M/sec                  
+    89.076252066              3,367      cpu-migrations            #    0.670 K/sec                  
+    89.076252066                  0      page-faults               #    0.000 K/sec                  
+    89.076252066     14,359,090,408      cycles                    #    2.855 GHz                      (37.78%)
+    89.076252066     12,068,675,272      stalled-cycles-frontend   #   95.06% frontend cycles idle     (46.78%)
+    89.076252066      5,060,229,648      instructions              #    0.40  insn per cycle         
+    89.076252066                                                   #    2.07  stalled cycles per insn  (59.31%)
+    89.076252066        589,487,287      branches                  #  117.217 M/sec                    (59.23%)
+    89.076252066          5,905,447      branch-misses             #    1.03% of all branches          (59.01%)
+    89.076252066        860,876,485      L1-dcache-loads           #  171.181 M/sec                    (32.80%)
+    89.076252066        161,034,522      L1-dcache-load-misses     #   18.26% of all L1-dcache hits    (27.09%)
+    89.076252066         77,922,595      LLC-loads                 #   15.495 M/sec                    (26.40%)
+    89.076252066    <not supported>      LLC-load-misses                                             
+    90.076810729           5,498.19 msec task-clock                #    5.498 CPUs utilized          
+    90.076810729             36,401      context-switches          #    0.007 M/sec                  
+    90.076810729              3,821      cpu-migrations            #    0.759 K/sec                  
+    90.076810729                  0      page-faults               #    0.000 K/sec                  
+    90.076810729     13,815,962,273      cycles                    #    2.744 GHz                      (37.78%)
+    90.076810729     11,566,557,916      stalled-cycles-frontend   #   91.02% frontend cycles idle     (46.78%)
+    90.076810729      5,073,283,702      instructions              #    0.40  insn per cycle         
+    90.076810729                                                   #    2.07  stalled cycles per insn  (59.31%)
+    90.076810729        455,046,406      branches                  #   90.390 M/sec                    (59.24%)
+    90.076810729          5,868,582      branch-misses             #    1.02% of all branches          (59.01%)
+    90.076810729        921,196,572      L1-dcache-loads           #  182.986 M/sec                    (32.80%)
+    90.076810729        160,327,647      L1-dcache-load-misses     #   18.17% of all L1-dcache hits    (27.09%)
+    90.076810729         78,083,085      LLC-loads                 #   15.510 M/sec                    (26.41%)
+    90.076810729    <not supported>      LLC-load-misses                                             
+    91.077419990           5,481.61 msec task-clock                #    5.482 CPUs utilized          
+    91.077419990             36,533      context-switches          #    0.007 M/sec                  
+    91.077419990              3,873      cpu-migrations            #    0.769 K/sec                  
+    91.077419990                  0      page-faults               #    0.000 K/sec                  
+    91.077419990     13,931,337,167      cycles                    #    2.765 GHz                      (37.78%)
+    91.077419990     11,394,901,469      stalled-cycles-frontend   #   89.57% frontend cycles idle     (46.77%)
+    91.077419990      5,913,711,427      instructions              #    0.46  insn per cycle         
+    91.077419990                                                   #    1.78  stalled cycles per insn  (59.30%)
+    91.077419990        709,780,729      branches                  #  140.853 M/sec                    (59.21%)
+    91.077419990          6,821,968      branch-misses             #    1.19% of all branches          (59.00%)
+    91.077419990        955,606,979      L1-dcache-loads           #  189.636 M/sec                    (32.81%)
+    91.077419990        157,977,992      L1-dcache-load-misses     #   17.89% of all L1-dcache hits    (27.11%)
+    91.077419990         71,901,433      LLC-loads                 #   14.269 M/sec                    (26.40%)
+    91.077419990    <not supported>      LLC-load-misses                                             
+    92.078137138           5,480.48 msec task-clock                #    5.480 CPUs utilized          
+    92.078137138             36,315      context-switches          #    0.007 M/sec                  
+    92.078137138              3,651      cpu-migrations            #    0.724 K/sec                  
+    92.078137138                  0      page-faults               #    0.000 K/sec                  
+    92.078137138     13,698,257,081      cycles                    #    2.716 GHz                      (37.78%)
+    92.078137138     11,207,913,438      stalled-cycles-frontend   #   88.03% frontend cycles idle     (46.78%)
+    92.078137138      5,950,876,496      instructions              #    0.47  insn per cycle         
+    92.078137138                                                   #    1.77  stalled cycles per insn  (59.31%)
+    92.078137138        667,539,994      branches                  #  132.344 M/sec                    (59.23%)
+    92.078137138          6,597,665      branch-misses             #    1.14% of all branches          (59.01%)
+    92.078137138        923,720,120      L1-dcache-loads           #  183.134 M/sec                    (32.80%)
+    92.078137138        160,988,972      L1-dcache-load-misses     #   18.22% of all L1-dcache hits    (27.09%)
+    92.078137138         74,784,266      LLC-loads                 #   14.826 M/sec                    (26.40%)
+    92.078137138    <not supported>      LLC-load-misses                                             
+    93.078995631           5,561.01 msec task-clock                #    5.561 CPUs utilized          
+    93.078995631             35,676      context-switches          #    0.007 M/sec                  
+    93.078995631              3,599      cpu-migrations            #    0.713 K/sec                  
+    93.078995631                  0      page-faults               #    0.000 K/sec                  
+    93.078995631     14,129,143,237      cycles                    #    2.798 GHz                      (37.78%)
+    93.078995631     11,660,706,886      stalled-cycles-frontend   #   91.48% frontend cycles idle     (46.79%)
+    93.078995631      5,863,990,891      instructions              #    0.46  insn per cycle         
+    93.078995631                                                   #    1.79  stalled cycles per insn  (59.31%)
+    93.078995631        681,763,654      branches                  #  135.015 M/sec                    (59.23%)
+    93.078995631          6,227,630      branch-misses             #    1.08% of all branches          (59.00%)
+    93.078995631        946,544,502      L1-dcache-loads           #  187.452 M/sec                    (32.80%)
+    93.078995631        161,047,524      L1-dcache-load-misses     #   18.22% of all L1-dcache hits    (27.10%)
+    93.078995631         77,522,965      LLC-loads                 #   15.353 M/sec                    (26.41%)
+    93.078995631    <not supported>      LLC-load-misses                                             
+    94.080298670           5,628.38 msec task-clock                #    5.628 CPUs utilized          
+    94.080298670             29,688      context-switches          #    0.006 M/sec                  
+    94.080298670              3,248      cpu-migrations            #    0.642 K/sec                  
+    94.080298670                  0      page-faults               #    0.000 K/sec                  
+    94.080298670     13,831,071,749      cycles                    #    2.736 GHz                      (37.78%)
+    94.080298670     11,582,611,255      stalled-cycles-frontend   #   90.78% frontend cycles idle     (46.78%)
+    94.080298670      4,753,602,270      instructions              #    0.37  insn per cycle         
+    94.080298670                                                   #    2.21  stalled cycles per insn  (59.31%)
+    94.080298670        473,594,989      branches                  #   93.676 M/sec                    (59.22%)
+    94.080298670          5,449,255      branch-misses             #    0.95% of all branches          (59.00%)
+    94.080298670        752,812,978      L1-dcache-loads           #  148.904 M/sec                    (32.79%)
+    94.080298670        160,028,888      L1-dcache-load-misses     #   18.13% of all L1-dcache hits    (27.10%)
+    94.080298670         78,117,926      LLC-loads                 #   15.452 M/sec                    (26.41%)
+    94.080298670    <not supported>      LLC-load-misses                                             
+    95.081118921           5,324.71 msec task-clock                #    5.325 CPUs utilized          
+    95.081118921             34,938      context-switches          #    0.007 M/sec                  
+    95.081118921              3,663      cpu-migrations            #    0.724 K/sec                  
+    95.081118921                  0      page-faults               #    0.000 K/sec                  
+    95.081118921     12,734,363,173      cycles                    #    2.517 GHz                      (37.77%)
+    95.081118921     10,465,938,233      stalled-cycles-frontend   #   82.03% frontend cycles idle     (46.77%)
+    95.081118921      5,364,220,304      instructions              #    0.42  insn per cycle         
+    95.081118921                                                   #    1.96  stalled cycles per insn  (59.30%)
+    95.081118921        647,449,104      branches                  #  127.992 M/sec                    (59.23%)
+    95.081118921          6,525,501      branch-misses             #    1.13% of all branches          (59.01%)
+    95.081118921        942,406,428      L1-dcache-loads           #  186.301 M/sec                    (32.79%)
+    95.081118921        141,139,717      L1-dcache-load-misses     #   15.98% of all L1-dcache hits    (27.09%)
+    95.081118921         67,306,615      LLC-loads                 #   13.306 M/sec                    (26.40%)
+    95.081118921    <not supported>      LLC-load-misses                                             
+    96.082040316           5,369.76 msec task-clock                #    5.370 CPUs utilized          
+    96.082040316             35,252      context-switches          #    0.007 M/sec                  
+    96.082040316              3,747      cpu-migrations            #    0.740 K/sec                  
+    96.082040316                  0      page-faults               #    0.000 K/sec                  
+    96.082040316     13,072,362,250      cycles                    #    2.583 GHz                      (37.76%)
+    96.082040316     10,767,816,778      stalled-cycles-frontend   #   84.38% frontend cycles idle     (46.77%)
+    96.082040316      5,311,580,298      instructions              #    0.42  insn per cycle         
+    96.082040316                                                   #    1.98  stalled cycles per insn  (59.29%)
+    96.082040316        603,052,084      branches                  #  119.139 M/sec                    (59.22%)
+    96.082040316          6,502,815      branch-misses             #    1.13% of all branches          (59.01%)
+    96.082040316        956,794,239      L1-dcache-loads           #  189.024 M/sec                    (32.81%)
+    96.082040316        146,700,087      L1-dcache-load-misses     #   16.59% of all L1-dcache hits    (27.10%)
+    96.082040316         70,091,684      LLC-loads                 #   13.847 M/sec                    (26.39%)
+    96.082040316    <not supported>      LLC-load-misses                                             
+    97.082989890           5,705.97 msec task-clock                #    5.706 CPUs utilized          
+    97.082989890             28,696      context-switches          #    0.006 M/sec                  
+    97.082989890              3,206      cpu-migrations            #    0.633 K/sec                  
+    97.082989890                  0      page-faults               #    0.000 K/sec                  
+    97.082989890     14,169,898,802      cycles                    #    2.796 GHz                      (37.76%)
+    97.082989890     11,966,867,117      stalled-cycles-frontend   #   93.67% frontend cycles idle     (46.77%)
+    97.082989890      4,725,279,270      instructions              #    0.37  insn per cycle         
+    97.082989890                                                   #    2.23  stalled cycles per insn  (59.29%)
+    97.082989890        454,449,595      branches                  #   89.663 M/sec                    (59.22%)
+    97.082989890          5,105,297      branch-misses             #    0.89% of all branches          (59.01%)
+    97.082989890        756,554,167      L1-dcache-loads           #  149.269 M/sec                    (32.81%)
+    97.082989890        165,847,037      L1-dcache-load-misses     #   18.79% of all L1-dcache hits    (27.09%)
+    97.082989890         79,822,249      LLC-loads                 #   15.749 M/sec                    (26.38%)
+    97.082989890    <not supported>      LLC-load-misses                                             
+    98.083561042           5,667.37 msec task-clock                #    5.667 CPUs utilized          
+    98.083561042             38,151      context-switches          #    0.008 M/sec                  
+    98.083561042              3,986      cpu-migrations            #    0.785 K/sec                  
+    98.083561042                  1      page-faults               #    0.000 K/sec                  
+    98.083561042     15,126,247,242      cycles                    #    2.981 GHz                      (37.76%)
+    98.083561042     12,462,337,056      stalled-cycles-frontend   #   97.36% frontend cycles idle     (46.76%)
+    98.083561042      6,087,836,216      instructions              #    0.48  insn per cycle         
+    98.083561042                                                   #    1.74  stalled cycles per insn  (59.28%)
+    98.083561042        685,554,477      branches                  #  135.098 M/sec                    (59.22%)
+    98.083561042          7,011,033      branch-misses             #    1.21% of all branches          (59.01%)
+    98.083561042      1,022,327,052      L1-dcache-loads           #  201.463 M/sec                    (32.83%)
+    98.083561042        171,416,809      L1-dcache-load-misses     #   19.39% of all L1-dcache hits    (27.09%)
+    98.083561042         80,674,178      LLC-loads                 #   15.898 M/sec                    (26.39%)
+    98.083561042    <not supported>      LLC-load-misses                                             
+    99.084713904           5,412.29 msec task-clock                #    5.412 CPUs utilized          
+    99.084713904             35,505      context-switches          #    0.007 M/sec                  
+    99.084713904              3,796      cpu-migrations            #    0.748 K/sec                  
+    99.084713904                  0      page-faults               #    0.000 K/sec                  
+    99.084713904     13,262,931,050      cycles                    #    2.612 GHz                      (37.75%)
+    99.084713904     10,937,007,436      stalled-cycles-frontend   #   85.41% frontend cycles idle     (46.77%)
+    99.084713904      5,606,652,934      instructions              #    0.44  insn per cycle         
+    99.084713904                                                   #    1.89  stalled cycles per insn  (59.29%)
+    99.084713904        675,673,625      branches                  #  133.061 M/sec                    (59.21%)
+    99.084713904          6,468,784      branch-misses             #    1.12% of all branches          (59.00%)
+    99.084713904        949,729,319      L1-dcache-loads           #  187.031 M/sec                    (32.84%)
+    99.084713904        152,453,389      L1-dcache-load-misses     #   17.23% of all L1-dcache hits    (27.10%)
+    99.084713904         71,443,509      LLC-loads                 #   14.069 M/sec                    (26.38%)
+    99.084713904    <not supported>      LLC-load-misses                                             
+   100.085248227           5,527.64 msec task-clock                #    5.528 CPUs utilized          
+   100.085248227             36,804      context-switches          #    0.007 M/sec                  
+   100.085248227              3,909      cpu-migrations            #    0.769 K/sec                  
+   100.085248227                  0      page-faults               #    0.000 K/sec                  
+   100.085248227     14,116,423,326      cycles                    #    2.778 GHz                      (37.76%)
+   100.085248227     11,611,961,669      stalled-cycles-frontend   #   90.59% frontend cycles idle     (46.77%)
+   100.085248227      6,042,046,174      instructions              #    0.47  insn per cycle         
+   100.085248227                                                   #    1.75  stalled cycles per insn  (59.30%)
+   100.085248227        666,407,542      branches                  #  131.120 M/sec                    (59.23%)
+   100.085248227          6,608,221      branch-misses             #    1.14% of all branches          (59.00%)
+   100.085248227        941,290,260      L1-dcache-loads           #  185.205 M/sec                    (32.83%)
+   100.085248227        164,302,611      L1-dcache-load-misses     #   18.56% of all L1-dcache hits    (27.09%)
+   100.085248227         77,610,578      LLC-loads                 #   15.270 M/sec                    (26.39%)
+   100.085248227    <not supported>      LLC-load-misses                                             
+#           time             counts unit events
+   101.085922824           5,528.08 msec task-clock                #    5.528 CPUs utilized          
+   101.085922824             32,724      context-switches          #    0.006 M/sec                  
+   101.085922824              3,705      cpu-migrations            #    0.728 K/sec                  
+   101.085922824                  0      page-faults               #    0.000 K/sec                  
+   101.085922824     13,664,773,928      cycles                    #    2.686 GHz                      (37.76%)
+   101.085922824     11,352,182,409      stalled-cycles-frontend   #   88.51% frontend cycles idle     (46.77%)
+   101.085922824      5,455,773,346      instructions              #    0.43  insn per cycle         
+   101.085922824                                                   #    1.94  stalled cycles per insn  (59.29%)
+   101.085922824        665,073,716      branches                  #  130.744 M/sec                    (59.21%)
+   101.085922824          6,763,059      branch-misses             #    1.17% of all branches          (58.98%)
+   101.085922824        918,304,772      L1-dcache-loads           #  180.526 M/sec                    (32.82%)
+   101.085922824        157,810,415      L1-dcache-load-misses     #   17.82% of all L1-dcache hits    (27.10%)
+   101.085922824         74,594,539      LLC-loads                 #   14.664 M/sec                    (26.38%)
+   101.085922824    <not supported>      LLC-load-misses                                             
+   102.086649311           5,510.00 msec task-clock                #    5.510 CPUs utilized          
+   102.086649311             31,017      context-switches          #    0.006 M/sec                  
+   102.086649311              3,197      cpu-migrations            #    0.628 K/sec                  
+   102.086649311                  0      page-faults               #    0.000 K/sec                  
+   102.086649311     13,464,802,084      cycles                    #    2.645 GHz                      (37.77%)
+   102.086649311     11,226,107,232      stalled-cycles-frontend   #   87.48% frontend cycles idle     (46.77%)
+   102.086649311      4,614,969,225      instructions              #    0.36  insn per cycle         
+   102.086649311                                                   #    2.30  stalled cycles per insn  (59.30%)
+   102.086649311        459,859,087      branches                  #   90.328 M/sec                    (59.21%)
+   102.086649311          5,506,566      branch-misses             #    0.95% of all branches          (58.97%)
+   102.086649311        819,409,220      L1-dcache-loads           #  160.953 M/sec                    (32.81%)
+   102.086649311        153,887,315      L1-dcache-load-misses     #   17.39% of all L1-dcache hits    (27.11%)
+   102.086649311         75,470,179      LLC-loads                 #   14.824 M/sec                    (26.40%)
+   102.086649311    <not supported>      LLC-load-misses                                             
+   103.087426694           5,500.60 msec task-clock                #    5.501 CPUs utilized          
+   103.087426694             36,550      context-switches          #    0.007 M/sec                  
+   103.087426694              3,882      cpu-migrations            #    0.762 K/sec                  
+   103.087426694                  0      page-faults               #    0.000 K/sec                  
+   103.087426694     13,911,869,767      cycles                    #    2.731 GHz                      (37.77%)
+   103.087426694     11,471,381,330      stalled-cycles-frontend   #   89.32% frontend cycles idle     (46.78%)
+   103.087426694      5,675,715,487      instructions              #    0.44  insn per cycle         
+   103.087426694                                                   #    1.87  stalled cycles per insn  (59.29%)
+   103.087426694        634,750,969      branches                  #  124.584 M/sec                    (59.21%)
+   103.087426694          6,790,600      branch-misses             #    1.17% of all branches          (58.97%)
+   103.087426694        972,890,725      L1-dcache-loads           #  190.952 M/sec                    (32.80%)
+   103.087426694        159,511,040      L1-dcache-load-misses     #   18.00% of all L1-dcache hits    (27.11%)
+   103.087426694         75,088,407      LLC-loads                 #   14.738 M/sec                    (26.40%)
+   103.087426694    <not supported>      LLC-load-misses                                             
+   104.088180472           5,501.99 msec task-clock                #    5.502 CPUs utilized          
+   104.088180472             36,680      context-switches          #    0.007 M/sec                  
+   104.088180472              3,733      cpu-migrations            #    0.732 K/sec                  
+   104.088180472                  0      page-faults               #    0.000 K/sec                  
+   104.088180472     14,046,096,329      cycles                    #    2.755 GHz                      (37.78%)
+   104.088180472     11,447,866,243      stalled-cycles-frontend   #   89.06% frontend cycles idle     (46.78%)
+   104.088180472      5,966,543,953      instructions              #    0.46  insn per cycle         
+   104.088180472                                                   #    1.78  stalled cycles per insn  (59.29%)
+   104.088180472        656,533,126      branches                  #  128.760 M/sec                    (59.20%)
+   104.088180472          6,569,387      branch-misses             #    1.13% of all branches          (58.97%)
+   104.088180472        947,948,234      L1-dcache-loads           #  185.913 M/sec                    (32.80%)
+   104.088180472        160,371,964      L1-dcache-load-misses     #   18.09% of all L1-dcache hits    (27.12%)
+   104.088180472         73,686,756      LLC-loads                 #   14.452 M/sec                    (26.41%)
+   104.088180472    <not supported>      LLC-load-misses                                             
+   105.088859625           5,529.58 msec task-clock                #    5.530 CPUs utilized          
+   105.088859625             34,007      context-switches          #    0.007 M/sec                  
+   105.088859625              3,665      cpu-migrations            #    0.718 K/sec                  
+   105.088859625                  0      page-faults               #    0.000 K/sec                  
+   105.088859625     13,879,111,653      cycles                    #    2.720 GHz                      (37.78%)
+   105.088859625     11,461,334,951      stalled-cycles-frontend   #   89.09% frontend cycles idle     (46.79%)
+   105.088859625      5,422,752,408      instructions              #    0.42  insn per cycle         
+   105.088859625                                                   #    1.96  stalled cycles per insn  (59.30%)
+   105.088859625        565,263,886      branches                  #  110.771 M/sec                    (59.20%)
+   105.088859625          6,226,905      branch-misses             #    1.07% of all branches          (58.97%)
+   105.088859625        891,530,666      L1-dcache-loads           #  174.708 M/sec                    (32.79%)
+   105.088859625        156,507,488      L1-dcache-load-misses     #   17.65% of all L1-dcache hits    (27.13%)
+   105.088859625         73,629,387      LLC-loads                 #   14.429 M/sec                    (26.41%)
+   105.088859625    <not supported>      LLC-load-misses                                             
+   106.089903691           5,566.93 msec task-clock                #    5.567 CPUs utilized          
+   106.089903691             30,565      context-switches          #    0.006 M/sec                  
+   106.089903691              3,245      cpu-migrations            #    0.635 K/sec                  
+   106.089903691                  0      page-faults               #    0.000 K/sec                  
+   106.089903691     13,631,861,610      cycles                    #    2.669 GHz                      (37.78%)
+   106.089903691     11,489,466,658      stalled-cycles-frontend   #   89.26% frontend cycles idle     (46.79%)
+   106.089903691      4,623,264,368      instructions              #    0.36  insn per cycle         
+   106.089903691                                                   #    2.30  stalled cycles per insn  (59.29%)
+   106.089903691        460,003,108      branches                  #   90.067 M/sec                    (59.18%)
+   106.089903691          5,258,809      branch-misses             #    0.91% of all branches          (58.96%)
+   106.089903691        813,414,107      L1-dcache-loads           #  159.263 M/sec                    (32.81%)
+   106.089903691        155,680,990      L1-dcache-load-misses     #   17.57% of all L1-dcache hits    (27.14%)
+   106.089903691         75,809,665      LLC-loads                 #   14.843 M/sec                    (26.43%)
+   106.089903691    <not supported>      LLC-load-misses                                             
+   107.090745229           5,340.52 msec task-clock                #    5.341 CPUs utilized          
+   107.090745229             35,305      context-switches          #    0.007 M/sec                  
+   107.090745229              3,650      cpu-migrations            #    0.714 K/sec                  
+   107.090745229                  0      page-faults               #    0.000 K/sec                  
+   107.090745229     13,061,208,468      cycles                    #    2.556 GHz                      (37.77%)
+   107.090745229     10,714,027,834      stalled-cycles-frontend   #   83.23% frontend cycles idle     (46.77%)
+   107.090745229      5,539,863,188      instructions              #    0.43  insn per cycle         
+   107.090745229                                                   #    1.92  stalled cycles per insn  (59.28%)
+   107.090745229        649,777,749      branches                  #  127.170 M/sec                    (59.17%)
+   107.090745229          6,752,448      branch-misses             #    1.16% of all branches          (58.97%)
+   107.090745229        913,788,851      L1-dcache-loads           #  178.840 M/sec                    (32.82%)
+   107.090745229        145,181,930      L1-dcache-load-misses     #   16.38% of all L1-dcache hits    (27.15%)
+   107.090745229         67,032,913      LLC-loads                 #   13.119 M/sec                    (26.42%)
+   107.090745229    <not supported>      LLC-load-misses                                             
+   108.091332626           5,490.97 msec task-clock                #    5.491 CPUs utilized          
+   108.091332626             36,587      context-switches          #    0.007 M/sec                  
+   108.091332626              3,749      cpu-migrations            #    0.733 K/sec                  
+   108.091332626                  0      page-faults               #    0.000 K/sec                  
+   108.091332626     13,897,490,076      cycles                    #    2.718 GHz                      (37.78%)
+   108.091332626     11,519,656,763      stalled-cycles-frontend   #   89.42% frontend cycles idle     (46.77%)
+   108.091332626      5,448,257,764      instructions              #    0.42  insn per cycle         
+   108.091332626                                                   #    1.95  stalled cycles per insn  (59.29%)
+   108.091332626        605,347,538      branches                  #  118.392 M/sec                    (59.17%)
+   108.091332626          6,762,213      branch-misses             #    1.17% of all branches          (58.96%)
+   108.091332626        993,248,750      L1-dcache-loads           #  194.257 M/sec                    (32.81%)
+   108.091332626        156,737,660      L1-dcache-load-misses     #   17.67% of all L1-dcache hits    (27.15%)
+   108.091332626         75,108,021      LLC-loads                 #   14.689 M/sec                    (26.43%)
+   108.091332626    <not supported>      LLC-load-misses                                             
+   109.091937621           5,669.97 msec task-clock                #    5.670 CPUs utilized          
+   109.091937621             30,007      context-switches          #    0.006 M/sec                  
+   109.091937621              3,281      cpu-migrations            #    0.641 K/sec                  
+   109.091937621                  0      page-faults               #    0.000 K/sec                  
+   109.091937621     14,248,052,593      cycles                    #    2.784 GHz                      (37.78%)
+   109.091937621     11,817,878,475      stalled-cycles-frontend   #   91.64% frontend cycles idle     (46.78%)
+   109.091937621      5,393,047,064      instructions              #    0.42  insn per cycle         
+   109.091937621                                                   #    1.97  stalled cycles per insn  (59.30%)
+   109.091937621        625,143,498      branches                  #  122.142 M/sec                    (59.18%)
+   109.091937621          6,048,614      branch-misses             #    1.04% of all branches          (58.96%)
+   109.091937621        861,150,662      L1-dcache-loads           #  168.254 M/sec                    (32.81%)
+   109.091937621        160,046,912      L1-dcache-load-misses     #   18.04% of all L1-dcache hits    (27.14%)
+   109.091937621         75,586,356      LLC-loads                 #   14.768 M/sec                    (26.43%)
+   109.091937621    <not supported>      LLC-load-misses                                             
+   110.092497541           5,629.22 msec task-clock                #    5.629 CPUs utilized          
+   110.092497541             35,989      context-switches          #    0.007 M/sec                  
+   110.092497541              3,835      cpu-migrations            #    0.749 K/sec                  
+   110.092497541                  0      page-faults               #    0.000 K/sec                  
+   110.092497541     14,498,629,907      cycles                    #    2.830 GHz                      (37.77%)
+   110.092497541     12,166,822,232      stalled-cycles-frontend   #   94.24% frontend cycles idle     (46.77%)
+   110.092497541      5,129,959,662      instructions              #    0.40  insn per cycle         
+   110.092497541                                                   #    2.08  stalled cycles per insn  (59.29%)
+   110.092497541        511,801,886      branches                  #   99.906 M/sec                    (59.18%)
+   110.092497541          6,100,043      branch-misses             #    1.05% of all branches          (58.96%)
+   110.092497541        885,255,750      L1-dcache-loads           #  172.806 M/sec                    (32.81%)
+   110.092497541        171,603,319      L1-dcache-load-misses     #   19.35% of all L1-dcache hits    (27.14%)
+   110.092497541         78,899,364      LLC-loads                 #   15.402 M/sec                    (26.43%)
+   110.092497541    <not supported>      LLC-load-misses                                             
+   111.093426051           5,393.61 msec task-clock                #    5.394 CPUs utilized          
+   111.093426051             35,632      context-switches          #    0.007 M/sec                  
+   111.093426051              3,717      cpu-migrations            #    0.725 K/sec                  
+   111.093426051                  0      page-faults               #    0.000 K/sec                  
+   111.093426051     13,226,779,876      cycles                    #    2.581 GHz                      (37.77%)
+   111.093426051     10,855,193,943      stalled-cycles-frontend   #   84.07% frontend cycles idle     (46.78%)
+   111.093426051      5,473,908,444      instructions              #    0.42  insn per cycle         
+   111.093426051                                                   #    1.95  stalled cycles per insn  (59.29%)
+   111.093426051        594,413,113      branches                  #  115.977 M/sec                    (59.17%)
+   111.093426051          6,385,987      branch-misses             #    1.10% of all branches          (58.95%)
+   111.093426051        920,594,801      L1-dcache-loads           #  179.619 M/sec                    (32.80%)
+   111.093426051        147,467,680      L1-dcache-load-misses     #   16.62% of all L1-dcache hits    (27.14%)
+   111.093426051         69,752,271      LLC-loads                 #   13.610 M/sec                    (26.44%)
+   111.093426051    <not supported>      LLC-load-misses                                             
+   112.094014123           5,423.27 msec task-clock                #    5.423 CPUs utilized          
+   112.094014123             35,969      context-switches          #    0.007 M/sec                  
+   112.094014123              3,741      cpu-migrations            #    0.730 K/sec                  
+   112.094014123                  0      page-faults               #    0.000 K/sec                  
+   112.094014123     13,497,046,029      cycles                    #    2.632 GHz                      (37.78%)
+   112.094014123     11,155,866,814      stalled-cycles-frontend   #   86.36% frontend cycles idle     (46.79%)
+   112.094014123      5,376,241,777      instructions              #    0.42  insn per cycle         
+   112.094014123                                                   #    1.98  stalled cycles per insn  (59.31%)
+   112.094014123        566,077,589      branches                  #  110.391 M/sec                    (59.18%)
+   112.094014123          6,433,445      branch-misses             #    1.11% of all branches          (58.95%)
+   112.094014123        965,659,378      L1-dcache-loads           #  188.314 M/sec                    (32.79%)
+   112.094014123        151,096,139      L1-dcache-load-misses     #   17.02% of all L1-dcache hits    (27.12%)
+   112.094014123         73,240,826      LLC-loads                 #   14.283 M/sec                    (26.44%)
+   112.094014123    <not supported>      LLC-load-misses                                             
+   113.094638439           5,581.23 msec task-clock                #    5.581 CPUs utilized          
+   113.094638439             36,095      context-switches          #    0.007 M/sec                  
+   113.094638439              3,742      cpu-migrations            #    0.729 K/sec                  
+   113.094638439                  0      page-faults               #    0.000 K/sec                  
+   113.094638439     14,392,124,246      cycles                    #    2.804 GHz                      (37.78%)
+   113.094638439     11,895,325,514      stalled-cycles-frontend   #   91.99% frontend cycles idle     (46.79%)
+   113.094638439      5,620,190,493      instructions              #    0.43  insn per cycle         
+   113.094638439                                                   #    1.90  stalled cycles per insn  (59.30%)
+   113.094638439        604,561,813      branches                  #  117.804 M/sec                    (59.19%)
+   113.094638439          6,611,479      branch-misses             #    1.14% of all branches          (58.95%)
+   113.094638439        984,376,565      L1-dcache-loads           #  191.814 M/sec                    (32.79%)
+   113.094638439        163,191,325      L1-dcache-load-misses     #   18.36% of all L1-dcache hits    (27.12%)
+   113.094638439         76,765,976      LLC-loads                 #   14.959 M/sec                    (26.44%)
+   113.094638439    <not supported>      LLC-load-misses                                             
+   114.095558184           5,655.88 msec task-clock                #    5.656 CPUs utilized          
+   114.095558184             29,718      context-switches          #    0.006 M/sec                  
+   114.095558184              3,286      cpu-migrations            #    0.640 K/sec                  
+   114.095558184                  0      page-faults               #    0.000 K/sec                  
+   114.095558184     14,037,541,580      cycles                    #    2.733 GHz                      (37.78%)
+   114.095558184     11,873,897,541      stalled-cycles-frontend   #   91.76% frontend cycles idle     (46.79%)
+   114.095558184      4,686,435,280      instructions              #    0.36  insn per cycle         
+   114.095558184                                                   #    2.28  stalled cycles per insn  (59.31%)
+   114.095558184        470,669,427      branches                  #   91.632 M/sec                    (59.19%)
+   114.095558184          5,556,386      branch-misses             #    0.96% of all branches          (58.96%)
+   114.095558184        851,824,079      L1-dcache-loads           #  165.837 M/sec                    (32.79%)
+   114.095558184        163,616,870      L1-dcache-load-misses     #   18.42% of all L1-dcache hits    (27.11%)
+   114.095558184         79,108,319      LLC-loads                 #   15.401 M/sec                    (26.44%)
+   114.095558184    <not supported>      LLC-load-misses                                             
+   115.096177207           5,504.97 msec task-clock                #    5.505 CPUs utilized          
+   115.096177207             36,580      context-switches          #    0.007 M/sec                  
+   115.096177207              3,865      cpu-migrations            #    0.752 K/sec                  
+   115.096177207                  1      page-faults               #    0.000 K/sec                  
+   115.096177207     13,982,588,952      cycles                    #    2.720 GHz                      (37.79%)
+   115.096177207     11,531,159,960      stalled-cycles-frontend   #   89.04% frontend cycles idle     (46.79%)
+   115.096177207      5,765,451,296      instructions              #    0.45  insn per cycle         
+   115.096177207                                                   #    1.86  stalled cycles per insn  (59.31%)
+   115.096177207        656,241,146      branches                  #  127.680 M/sec                    (59.19%)
+   115.096177207          6,849,781      branch-misses             #    1.18% of all branches          (58.97%)
+   115.096177207        967,359,318      L1-dcache-loads           #  188.212 M/sec                    (32.77%)
+   115.096177207        155,963,174      L1-dcache-load-misses     #   17.54% of all L1-dcache hits    (27.11%)
+   115.096177207         75,220,990      LLC-loads                 #   14.635 M/sec                    (26.44%)
+   115.096177207    <not supported>      LLC-load-misses                                             
+   116.096763481           5,368.42 msec task-clock                #    5.368 CPUs utilized          
+   116.096763481             35,292      context-switches          #    0.007 M/sec                  
+   116.096763481              3,620      cpu-migrations            #    0.704 K/sec                  
+   116.096763481                  0      page-faults               #    0.000 K/sec                  
+   116.096763481     12,965,336,566      cycles                    #    2.522 GHz                      (37.79%)
+   116.096763481     10,637,895,129      stalled-cycles-frontend   #   82.15% frontend cycles idle     (46.79%)
+   116.096763481      5,431,676,119      instructions              #    0.42  insn per cycle         
+   116.096763481                                                   #    1.97  stalled cycles per insn  (59.31%)
+   116.096763481        590,291,556      branches                  #  114.805 M/sec                    (59.19%)
+   116.096763481          6,137,097      branch-misses             #    1.06% of all branches          (58.96%)
+   116.096763481        945,456,658      L1-dcache-loads           #  183.880 M/sec                    (32.77%)
+   116.096763481        147,035,608      L1-dcache-load-misses     #   16.53% of all L1-dcache hits    (27.12%)
+   116.096763481         69,124,081      LLC-loads                 #   13.444 M/sec                    (26.45%)
+   116.096763481    <not supported>      LLC-load-misses                                             
+   117.097354532           5,576.86 msec task-clock                #    5.577 CPUs utilized          
+   117.097354532             31,607      context-switches          #    0.006 M/sec                  
+   117.097354532              3,452      cpu-migrations            #    0.671 K/sec                  
+   117.097354532                  0      page-faults               #    0.000 K/sec                  
+   117.097354532     13,799,568,619      cycles                    #    2.682 GHz                      (37.79%)
+   117.097354532     11,410,171,012      stalled-cycles-frontend   #   88.06% frontend cycles idle     (46.80%)
+   117.097354532      5,353,863,667      instructions              #    0.41  insn per cycle         
+   117.097354532                                                   #    2.00  stalled cycles per insn  (59.32%)
+   117.097354532        637,589,117      branches                  #  123.914 M/sec                    (59.19%)
+   117.097354532          6,059,705      branch-misses             #    1.04% of all branches          (58.96%)
+   117.097354532        901,476,785      L1-dcache-loads           #  175.200 M/sec                    (32.77%)
+   117.097354532        156,302,610      L1-dcache-load-misses     #   17.57% of all L1-dcache hits    (27.12%)
+   117.097354532         74,513,301      LLC-loads                 #   14.481 M/sec                    (26.44%)
+   117.097354532    <not supported>      LLC-load-misses                                             
+   118.097901337           5,579.55 msec task-clock                #    5.580 CPUs utilized          
+   118.097901337             33,219      context-switches          #    0.006 M/sec                  
+   118.097901337              3,548      cpu-migrations            #    0.689 K/sec                  
+   118.097901337                  0      page-faults               #    0.000 K/sec                  
+   118.097901337     13,994,728,264      cycles                    #    2.718 GHz                      (37.78%)
+   118.097901337     11,671,165,358      stalled-cycles-frontend   #   90.01% frontend cycles idle     (46.79%)
+   118.097901337      4,962,290,362      instructions              #    0.38  insn per cycle         
+   118.097901337                                                   #    2.16  stalled cycles per insn  (59.30%)
+   118.097901337        481,138,889      branches                  #   93.441 M/sec                    (59.18%)
+   118.097901337          5,476,003      branch-misses             #    0.95% of all branches          (58.95%)
+   118.097901337        861,023,161      L1-dcache-loads           #  167.218 M/sec                    (32.78%)
+   118.097901337        161,958,387      L1-dcache-load-misses     #   18.21% of all L1-dcache hits    (27.12%)
+   118.097901337         76,863,880      LLC-loads                 #   14.928 M/sec                    (26.44%)
+   118.097901337    <not supported>      LLC-load-misses                                             
+   119.098625591           5,310.54 msec task-clock                #    5.311 CPUs utilized          
+   119.098625591             34,987      context-switches          #    0.007 M/sec                  
+   119.098625591              3,688      cpu-migrations            #    0.716 K/sec                  
+   119.098625591                  0      page-faults               #    0.000 K/sec                  
+   119.098625591     12,657,151,697      cycles                    #    2.457 GHz                      (37.78%)
+   119.098625591     10,389,054,877      stalled-cycles-frontend   #   80.14% frontend cycles idle     (46.79%)
+   119.098625591      5,444,620,705      instructions              #    0.42  insn per cycle         
+   119.098625591                                                   #    1.97  stalled cycles per insn  (59.30%)
+   119.098625591        672,550,818      branches                  #  130.581 M/sec                    (59.18%)
+   119.098625591          6,605,504      branch-misses             #    1.14% of all branches          (58.95%)
+   119.098625591        943,359,671      L1-dcache-loads           #  183.160 M/sec                    (32.79%)
+   119.098625591        146,500,720      L1-dcache-load-misses     #   16.46% of all L1-dcache hits    (27.12%)
+   119.098625591         68,521,594      LLC-loads                 #   13.304 M/sec                    (26.44%)
+   119.098625591    <not supported>      LLC-load-misses                                             
+   120.099240746           5,392.36 msec task-clock                #    5.392 CPUs utilized          
+   120.099240746             34,233      context-switches          #    0.007 M/sec                  
+   120.099240746              3,569      cpu-migrations            #    0.693 K/sec                  
+   120.099240746                  0      page-faults               #    0.000 K/sec                  
+   120.099240746     13,047,679,990      cycles                    #    2.532 GHz                      (37.78%)
+   120.099240746     10,743,822,691      stalled-cycles-frontend   #   82.87% frontend cycles idle     (46.78%)
+   120.099240746      5,271,177,329      instructions              #    0.41  insn per cycle         
+   120.099240746                                                   #    2.03  stalled cycles per insn  (59.30%)
+   120.099240746        589,765,564      branches                  #  114.463 M/sec                    (59.18%)
+   120.099240746          6,302,363      branch-misses             #    1.09% of all branches          (58.96%)
+   120.099240746        917,476,973      L1-dcache-loads           #  178.065 M/sec                    (32.78%)
+   120.099240746        146,807,074      L1-dcache-load-misses     #   16.49% of all L1-dcache hits    (27.12%)
+   120.099240746         72,034,697      LLC-loads                 #   13.981 M/sec                    (26.43%)
+   120.099240746    <not supported>      LLC-load-misses                                             
+   121.100184294           5,650.34 msec task-clock                #    5.650 CPUs utilized          
+   121.100184294             29,618      context-switches          #    0.006 M/sec                  
+   121.100184294              3,259      cpu-migrations            #    0.632 K/sec                  
+   121.100184294                  0      page-faults               #    0.000 K/sec                  
+   121.100184294     14,038,597,900      cycles                    #    2.722 GHz                      (37.78%)
+   121.100184294     11,860,445,076      stalled-cycles-frontend   #   91.42% frontend cycles idle     (46.78%)
+   121.100184294      4,670,207,084      instructions              #    0.36  insn per cycle         
+   121.100184294                                                   #    2.29  stalled cycles per insn  (59.30%)
+   121.100184294        454,958,829      branches                  #   88.229 M/sec                    (59.19%)
+   121.100184294          5,487,271      branch-misses             #    0.95% of all branches          (58.97%)
+   121.100184294        815,511,768      L1-dcache-loads           #  158.150 M/sec                    (32.77%)
+   121.100184294        160,630,087      L1-dcache-load-misses     #   18.06% of all L1-dcache hits    (27.12%)
+   121.100184294         78,953,833      LLC-loads                 #   15.311 M/sec                    (26.42%)
+   121.100184294    <not supported>      LLC-load-misses                                             
+   122.101309373           5,359.39 msec task-clock                #    5.359 CPUs utilized          
+   122.101309373             35,185      context-switches          #    0.007 M/sec                  
+   122.101309373              3,503      cpu-migrations            #    0.679 K/sec                  
+   122.101309373                  0      page-faults               #    0.000 K/sec                  
+   122.101309373     12,904,670,618      cycles                    #    2.502 GHz                      (37.79%)
+   122.101309373     10,647,985,728      stalled-cycles-frontend   #   82.08% frontend cycles idle     (46.79%)
+   122.101309373      5,371,511,268      instructions              #    0.41  insn per cycle         
+   122.101309373                                                   #    1.99  stalled cycles per insn  (59.30%)
+   122.101309373        597,924,967      branches                  #  115.916 M/sec                    (59.21%)
+   122.101309373          6,444,948      branch-misses             #    1.11% of all branches          (58.96%)
+   122.101309373        954,693,469      L1-dcache-loads           #  185.081 M/sec                    (32.76%)
+   122.101309373        143,700,120      L1-dcache-load-misses     #   16.14% of all L1-dcache hits    (27.11%)
+   122.101309373         68,622,432      LLC-loads                 #   13.303 M/sec                    (26.43%)
+   122.101309373    <not supported>      LLC-load-misses                                             
+   122.807092252           1,897.42 msec task-clock                #    1.897 CPUs utilized          
+   122.807092252             14,938      context-switches          #    0.003 M/sec                  
+   122.807092252              1,560      cpu-migrations            #    0.304 K/sec                  
+   122.807092252              1,376      page-faults               #    0.268 K/sec                  
+   122.807092252      4,584,951,571      cycles                    #    0.893 GHz                      (37.79%)
+   122.807092252      3,731,922,762      stalled-cycles-frontend   #   28.92% frontend cycles idle     (46.79%)
+   122.807092252      1,880,217,582      instructions              #    0.15  insn per cycle         
+   122.807092252                                                   #    5.67  stalled cycles per insn  (59.30%)
+   122.807092252        164,002,210      branches                  #   31.958 M/sec                    (59.20%)
+   122.807092252          2,975,438      branch-misses             #    0.52% of all branches          (58.95%)
+   122.807092252        411,797,914      L1-dcache-loads           #   80.245 M/sec                    (32.76%)
+   122.807092252         59,571,688      L1-dcache-load-misses     #    6.72% of all L1-dcache hits    (27.11%)
+   122.807092252         29,702,669      LLC-loads                 #    5.788 M/sec                    (26.43%)
+   122.807092252    <not supported>      LLC-load-misses                                             
